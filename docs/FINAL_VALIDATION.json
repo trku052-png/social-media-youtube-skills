@@ -1,0 +1,30 @@
+{
+  "skill_markdown_files": 299,
+  "distinct_skill_markdown_contents": 299,
+  "distinct_names": 280,
+  "exact_duplicates_removed": 16,
+  "collection_counts": {
+    "audio-video-production": 94,
+    "core-and-verified": 39,
+    "motion-design-adobe": 64,
+    "social-media-youtube": 89,
+    "social-media-youtube-starter": 13
+  },
+  "total_files": 968,
+  "assets": [
+    "creator-flag.svg",
+    "creator-icon.png",
+    "creator-logo-loop.gif",
+    "creator-logo.png",
+    "creator-logo.svg",
+    "creator-studio-hero.webp",
+    "creator-workflow.png",
+    "creator-workflow.svg",
+    "favicon.ico",
+    "favicon.png",
+    "hero-banner.png",
+    "social-preview.png",
+    "youtube-thumbnail-template.png",
+    "youtube-thumbnail-template.svg"
+  ]
+}

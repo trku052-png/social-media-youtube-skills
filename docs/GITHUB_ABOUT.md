@@ -1,19 +1,17 @@
-# Suggested GitHub Repository Metadata
-
-Use the following in the repository About panel. These values are intended to describe the project clearly; they do not guarantee search ranking, stars or popularity.
+# GitHub Repository About Metadata
 
 **Description**
 
-Agent skills for YouTube, social media, video editing, motion design, audio production, and creator workflows.
+299 curated agent skill instructions for YouTube, social media, video editing, audio production, motion design, Adobe workflows and creator growth.
 
 **Suggested topics**
 
-`agent-skills` `ai-agents` `youtube` `social-media` `content-creation` `video-editing` `video-production` `motion-design` `audio-production` `sound-design` `adobe` `blender` `ffmpeg` `creator-tools` `digital-marketing` `tiktok` `instagram` `ai-video`
+`agent-skills` `ai-agents` `youtube` `social-media` `content-creation` `video-editing` `video-production` `motion-design` `audio-production` `sound-effects` `podcasting` `adobe` `blender` `ffmpeg` `remotion` `elevenlabs` `runway` `comfyui` `davinci-resolve` `tiktok` `instagram` `digital-marketing` `creator-tools`
 
 **Social preview**
 
-Use the dedicated social preview artwork from the downloadable project package in the repository settings. If replacing it with a GitHub-hosted asset, keep it within GitHub's current image size and format requirements.
+Use [`assets/social-preview.png`](../assets/social-preview.png) in the repository Social preview setting. GitHub repository description, topics and social preview image are controlled in the repository settings. This document provides the prepared text and artwork.
 
-**Discoverability**
+**Brand assets**
 
-A clear title, accurate description, relevant topics, searchable documentation, source attribution, useful updates and responsive issue handling make a repository easier to understand and discover. None of these guarantees popularity.
+The logo, icon, banner, flag, animated loop and thumbnail template are listed in [Brand Guide](BRAND_GUIDE.md).

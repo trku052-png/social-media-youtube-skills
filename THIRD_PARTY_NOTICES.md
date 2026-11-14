@@ -1,32 +1,33 @@
 # Third-Party Notices
 
-This repository contains project-authored material and imported skill packages. Imported material retains its own license and attribution requirements; no single root license automatically covers every file.
+This repository contains project-authored material and imported skill packages. The imported material retains its own licensing and attribution requirements.
 
 ## Curated upstream video and creative set
 
-The 26 documented upstream skills are listed in [INDEX-26.md](INDEX-26.md). Their upstream repositories, file-level commit references and license notes are recorded in [manifest-verified-26.json](manifest-verified-26.json).
+The 26 documented upstream skills are listed in [INDEX-26.md](INDEX-26.md), with file-level repository links, commit hashes and source-license notes in [UPSTREAM_SOURCES.md](docs/UPSTREAM_SOURCES.md). Copies of the upstream licenses that were included are retained under `licenses/upstream/` and `third_party/`.
 
-Important findings from the source review:
+Important findings from that review:
 
-- The 26-skill snapshot records MIT and Apache-2.0 source projects, plus skill-text or additional attribution requirements for specific files.
-- `caption-styling` and `audio-ducking` declare CC-BY-4.0 for skill text in their frontmatter; scripts may have a separate license.
-- `video-editagent` had no root LICENSE in the inspected source snapshot. Treat redistribution status as unverified.
-- Separate fonts, footage, models, plugins, music, images and embedded assets may have their own terms.
+- The 26-skill research snapshot records MIT and Apache-2.0 source projects, plus skill-text or additional attribution requirements for specific files.
+- `caption-styling` and `audio-ducking` declare CC-BY-4.0 for skill text in their frontmatter; code/scripts may have a separate license.
+- `video-editagent` had no root LICENSE in the inspected source snapshot. Treat its redistribution status as unverified.
+- Separate fonts, footage, models, plugins, music, images and other embedded assets may have their own terms.
 
-## Project-authored skills
+## Additional user-supplied collections
 
-The repository includes 13 project-focused social media and YouTube skills under `skills/`. These are covered by the root LICENSE as scoped in that file.
+The following imported archives were unpacked into `collections/` while retaining each package's supplied `SKILL.md` and included support files:
 
-## Historical upstream snapshots
+- `social-media-youtube-skills.zip` → `collections/social-media-youtube-starter/` (13 packages)
+- `social-media-youtube-skills-all.zip` → `collections/social-media-youtube/` (89 packages)
+- `audio-sfx-video-libraries-skills.zip` → `collections/audio-video-production/` (94 packages)
+- `video-motion-adobe-skills.zip` → `collections/motion-design-adobe/` (64 packages)
 
-The `skills/upstream/` directory preserves 16 earlier upstream skill-file snapshots. Some duplicate skills in the 26-skill verified set. They remain for provenance and historical reference; they should not be counted as 16 additional unique skill capabilities.
+For these imported packages, license information is recorded from the supplied `SKILL.md` frontmatter and any included package-level license files. Some packages do not state a license in the supplied archive. This does not establish that they are public domain or freely reusable. See [Licensing & Provenance](docs/LICENSING.md) and the exact package paths in [the catalog](docs/SKILL_CATALOG.md).
 
-## Imported archives and additional packages
+## Original project skills
 
-The working delivery archive prepared alongside this repository contains three additional user-supplied skill collections: 89 social-media/YouTube packages, 94 audio/video packages and 64 motion/design packages, plus a separate 13-skill starter snapshot. **Those extra collections are not included in this GitHub branch update.** They are preserved in the separately supplied ZIP package so their nested support files and original package structures are not misrepresented as already committed here.
-
-Before adding any imported package to this public repository, verify its original source, license, author attribution and rights to redistribute. A missing license is not permission to reuse.
+The 13 original social-media and YouTube skill files from the starter pack are retained under `skills/`. The standalone 13-skill zip was not duplicated because its content matches the 13 project skills already present in the main archive.
 
 ## Attribution and reuse
 
-Do not remove upstream copyright notices. Where an imported package does not include a clear source or license, verify the terms with its original author or repository owner before redistribution or commercial use. The root LICENSE is limited to project-authored material and does not override any third-party license.
+Do not remove upstream copyright notices. Where an imported package does not include a clear source or license, verify the terms with its original author or repository before redistributing or using it commercially. The root `LICENSE` is limited to project-authored material and does not override any third-party license.
