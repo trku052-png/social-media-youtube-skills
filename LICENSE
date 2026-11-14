@@ -1,13 +1,13 @@
 Project-authored content only
 
-The MIT License below applies only to the 13 project-authored social-media and YouTube skill files under `skills/` and original repository documentation authored for this project. It does not apply to third-party or imported skill packages, upstream snapshots, external scripts, fonts, models, templates, footage, music, software dependencies or other assets. Those retain their own license terms. Some source snapshots do not state a license. See `THIRD_PARTY_NOTICES.md`.
+The MIT License below applies only to the project-authored starter materials in this repository: the 13 original social-media and YouTube skill files under `skills/` that are not marked as upstream imports, plus original repository documentation and artwork created for this project. It does not apply to third-party or imported skill packages, external scripts, fonts, models, templates, footage, music, software dependencies or other assets. Those retain their own license terms; some imported packages do not state a license in the supplied archive. See `THIRD_PARTY_NOTICES.md` and `docs/LICENSING.md`.
 
 MIT License
 
 Copyright (c) 2026
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of the Software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is

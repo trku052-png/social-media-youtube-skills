@@ -1,0 +1,37 @@
+{
+  "generated_from_user_uploads": [
+    "social-media-youtube-skills.zip",
+    "social-media-youtube-skills-main.zip",
+    "social-media-youtube-skills-all.zip",
+    "audio-sfx-video-libraries-skills.zip",
+    "video-motion-adobe-skills.zip"
+  ],
+  "skill_markdown_files": 299,
+  "distinct_skill_markdown_contents": 299,
+  "distinct_names": 280,
+  "collections": {
+    "audio-video-production": 94,
+    "core-and-verified": 39,
+    "motion-design-adobe": 64,
+    "social-media-youtube": 89,
+    "social-media-youtube-starter": 13
+  },
+  "exact_duplicates_removed": [
+    "skills/upstream/adobe-batch-photo-edit/SKILL.md",
+    "skills/upstream/after-effects/SKILL.md",
+    "skills/upstream/ffmpeg-skill/SKILL.md",
+    "skills/upstream/youtube-long-form/SKILL.md",
+    "skills/upstream/video-to-shorts/SKILL.md",
+    "skills/upstream/audio-ducking/SKILL.md",
+    "skills/upstream/youtube-publishing/SKILL.md",
+    "skills/upstream/analyze-video-editing/SKILL.md",
+    "skills/upstream/typed-video-editing/SKILL.md",
+    "skills/upstream/caption-styling/SKILL.md",
+    "skills/upstream/blender-previs-storyboard/SKILL.md",
+    "skills/upstream/find-broll/SKILL.md",
+    "skills/upstream/talking-head-editing/SKILL.md",
+    "skills/upstream/video-editing-workbench/SKILL.md",
+    "skills/upstream/gemini-video-generation/SKILL.md",
+    "skills/upstream/blender-animation/SKILL.md"
+  ]
+}

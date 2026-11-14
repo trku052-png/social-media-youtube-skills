@@ -1,0 +1,59 @@
+{
+  "name": "social-media-youtube-skills",
+  "version": "1.0.0",
+  "skill_count": 13,
+  "skills": [
+    {
+      "name": "social-media-strategy",
+      "path": "skills/social-media-strategy/SKILL.md"
+    },
+    {
+      "name": "youtube-channel-growth",
+      "path": "skills/youtube-channel-growth/SKILL.md"
+    },
+    {
+      "name": "youtube-long-form",
+      "path": "skills/youtube-long-form/SKILL.md"
+    },
+    {
+      "name": "youtube-shorts",
+      "path": "skills/youtube-shorts/SKILL.md"
+    },
+    {
+      "name": "tiktok-growth-and-scripts",
+      "path": "skills/tiktok-growth-and-scripts/SKILL.md"
+    },
+    {
+      "name": "instagram-growth-and-reels",
+      "path": "skills/instagram-growth-and-reels/SKILL.md"
+    },
+    {
+      "name": "content-calendar-and-repurposing",
+      "path": "skills/content-calendar-and-repurposing/SKILL.md"
+    },
+    {
+      "name": "hooks-scripts-and-captions",
+      "path": "skills/hooks-scripts-and-captions/SKILL.md"
+    },
+    {
+      "name": "trend-and-competitor-research",
+      "path": "skills/trend-and-competitor-research/SKILL.md"
+    },
+    {
+      "name": "social-analytics-and-optimization",
+      "path": "skills/social-analytics-and-optimization/SKILL.md"
+    },
+    {
+      "name": "ai-video-and-creative-production",
+      "path": "skills/ai-video-and-creative-production/SKILL.md"
+    },
+    {
+      "name": "social-profile-and-brand-voice",
+      "path": "skills/social-profile-and-brand-voice/SKILL.md"
+    },
+    {
+      "name": "creator-monetization-and-community",
+      "path": "skills/creator-monetization-and-community/SKILL.md"
+    }
+  ]
+}

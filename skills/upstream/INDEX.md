@@ -1,3 +1,3 @@
-# أرشيف Upstream سابق — 16 ملفاً
+# Archived Upstream Snapshots (16 files)
 
-هذه النسخ أُضيفت في محاولة التجميع السابقة وتكرر بعض العناصر ضمن المجموعة الأحدث ذات 26 مهارة. لا تعتمد هذا الفهرس للمجموعة الحالية؛ استخدم [INDEX-26.md](../../INDEX-26.md) و[التقرير المعتمد](../../research/2026-11-14-verified-report-ar.md). الملفات هنا محفوظة كأرشيف فقط. لم تُنسخ معها scripts أو references أو assets.
+These are earlier upstream snapshots retained for historical reference. Some overlap with the newer 26-skill verified set. Use [INDEX-26.md](../../INDEX-26.md) for the current curated index. Only the files present in this archive are included; supporting scripts, references and assets may be absent.

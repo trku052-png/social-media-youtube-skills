@@ -1,8 +1,8 @@
 # Verified Upstream Video & Creative Skills (26)
 
-**Research snapshot:** 14 November 2026. The files in this table are copies of the `SKILL.md` files documented in the supplied verified bundle. The original research records file-level source commits and license findings; see [Third-Party Notices](THIRD_PARTY_NOTICES.md) and the [upstream source manifest](manifest-verified-26.json).
+**Research snapshot:** 14 November 2026. The files in this table are copies of the `SKILL.md` files documented in the supplied verified bundle. The original research records file-level source commits and license findings; see [Third-Party Notices](THIRD_PARTY_NOTICES.md).
 
-| # | Skill | Focus | License note | File |
+| # | Skill | Focus | Declared/source license notes | File |
 |---:|---|---|---|---|
 | 01 | FFmpeg Skill | CLI video/audio editing, inspection and export | MIT | [SKILL.md](skills/01-ffmpeg-skill/SKILL.md) |
 | 02 | Typed Video Editing | Typed edit requests, timeline mapping and provenance | MIT | [SKILL.md](skills/02-typed-video-editing/SKILL.md) |
@@ -28,7 +28,7 @@
 | 22 | Vibe Editing Cut | Frame-accurate dialogue editing and EDL | MIT | [SKILL.md](skills/22-vibe-editing-cut/SKILL.md) |
 | 23 | Vibe Editing Review | Final video quality-control review | MIT | [SKILL.md](skills/23-vibe-editing-review/SKILL.md) |
 | 24 | Podcast & Audiograms | Podcast clips and social audiograms | MIT | [SKILL.md](skills/24-podcast-and-audiograms/SKILL.md) |
-| 25 | Video EditAgent | Conversational video editing workflows | No root LICENSE found in the inspected source snapshot | [SKILL.md](skills/25-video-editagent/SKILL.md) |
+| 25 | Video EditAgent | Conversational video editing workflows | No root LICENSE found in the source snapshot | [SKILL.md](skills/25-video-editagent/SKILL.md) |
 | 26 | VexJoy Video Editing | FFmpeg/Remotion video workflows | MIT | [SKILL.md](skills/26-vexjoy-video-editing/SKILL.md) |
 
 ## Scope and limitations
@@ -36,4 +36,4 @@
 - This is a research snapshot dated 14 November 2026, not a live validation of every upstream repository.
 - The 26 skill instructions were copied; not all upstream scripts, references, model weights, fonts, media assets or plugins are included in this curated set.
 - A repository-level license does not necessarily cover every external asset or dependency. Review each source project before commercial use.
-- Inclusion does not mean that a skill is installed, connected or executable in ChatGPT or another agent.
+- Inclusion does not mean that the skill is installed, connected or executable in ChatGPT or another agent.

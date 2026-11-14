@@ -1,59 +1,2431 @@
 {
-  "name": "social-media-youtube-skills",
-  "version": "1.0.0",
-  "skill_count": 13,
+  "generated_from_user_uploads": [
+    "social-media-youtube-skills.zip",
+    "social-media-youtube-skills-main.zip",
+    "social-media-youtube-skills-all.zip",
+    "audio-sfx-video-libraries-skills.zip",
+    "video-motion-adobe-skills.zip"
+  ],
+  "skill_markdown_files": 299,
+  "distinct_skill_markdown_contents": 299,
+  "distinct_names": 280,
+  "collections": {
+    "audio-video-production": 94,
+    "core-and-verified": 39,
+    "motion-design-adobe": 64,
+    "social-media-youtube": 89,
+    "social-media-youtube-starter": 13
+  },
+  "exact_duplicates_removed": [
+    "skills/upstream/adobe-batch-photo-edit/SKILL.md",
+    "skills/upstream/after-effects/SKILL.md",
+    "skills/upstream/ffmpeg-skill/SKILL.md",
+    "skills/upstream/youtube-long-form/SKILL.md",
+    "skills/upstream/video-to-shorts/SKILL.md",
+    "skills/upstream/audio-ducking/SKILL.md",
+    "skills/upstream/youtube-publishing/SKILL.md",
+    "skills/upstream/analyze-video-editing/SKILL.md",
+    "skills/upstream/typed-video-editing/SKILL.md",
+    "skills/upstream/caption-styling/SKILL.md",
+    "skills/upstream/blender-previs-storyboard/SKILL.md",
+    "skills/upstream/find-broll/SKILL.md",
+    "skills/upstream/talking-head-editing/SKILL.md",
+    "skills/upstream/video-editing-workbench/SKILL.md",
+    "skills/upstream/gemini-video-generation/SKILL.md",
+    "skills/upstream/blender-animation/SKILL.md"
+  ],
   "skills": [
     {
-      "name": "social-media-strategy",
-      "path": "skills/social-media-strategy/SKILL.md"
+      "name": "ai-image-gen",
+      "path": "collections/audio-video-production/ai-image-gen/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate images using AI (OpenAI GPT Image or Stability AI). Use when the user asks to generate an image, create an AI image, make an illustration, or produce artwork from a text prompt.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
-      "name": "youtube-channel-growth",
-      "path": "skills/youtube-channel-growth/SKILL.md"
+      "name": "audiowaveform",
+      "path": "collections/audio-video-production/audiowaveform/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate waveform visualizations from audio files. Use when a user asks to create waveform images, build audio player visualizations, generate waveform data for web players, create podcast episode previews, build audio thumbnails, render waveform PNGs for social media, extract peak data as JSON, or integrate waveform generation into audio processing pipelines. Covers audiowaveform CLI, JSON/binary data output, and web player integration.",
+      "license": "Apache-2.0",
+      "metadata_author": null
     },
     {
-      "name": "youtube-long-form",
-      "path": "skills/youtube-long-form/SKILL.md"
+      "name": "bgm-library",
+      "path": "collections/audio-video-production/bgm-library/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "搜索、筛选并下载 ccMixter 免版税背景音乐（仅 CC BY / CC BY-SA，商用安全）， 自动生成 TASL 署名。支持关键词搜索、5 套场景预设、按标签下载候选曲、按 ID 下载。 纯 BGM 优先使用本技能；背景音、环境音及带背景/环境的人声优先用 aigc-video-gen audio。纯客户端，无需 API key。",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
-      "name": "youtube-shorts",
-      "path": "skills/youtube-shorts/SKILL.md"
+      "name": "blender-motion-capture",
+      "path": "collections/audio-video-production/blender-motion-capture/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Automate motion capture and tracking workflows in Blender with Python. Use when the user wants to import BVH or FBX mocap data, retarget motion to armatures, track camera or object motion from video, solve camera motion, clean up motion capture data, or script any tracking pipeline in Blender.",
+      "license": "Apache-2.0",
+      "metadata_author": null
     },
     {
-      "name": "tiktok-growth-and-scripts",
-      "path": "skills/tiktok-growth-and-scripts/SKILL.md"
+      "name": "blender-render-automation",
+      "path": "collections/audio-video-production/blender-render-automation/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Automate Blender rendering from the command line. Use when the user wants to set up renders, batch render scenes, configure Cycles or EEVEE, set up cameras and lights, render animations, create materials and shaders, or build a render pipeline with Blender Python scripting.",
+      "license": "Apache-2.0",
+      "metadata_author": null
     },
     {
-      "name": "instagram-growth-and-reels",
-      "path": "skills/instagram-growth-and-reels/SKILL.md"
+      "name": "blender-scripting",
+      "path": "collections/audio-video-production/blender-scripting/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Write and run Blender Python scripts for 3D automation and procedural modeling. Use when the user wants to automate Blender tasks, create 3D models from code, run headless scripts, manipulate scenes, batch process .blend files, build geometry with bmesh, apply modifiers, generate procedural shapes, or import/export 3D models using the bpy API.",
+      "license": "Apache-2.0",
+      "metadata_author": null
     },
     {
-      "name": "content-calendar-and-repurposing",
-      "path": "skills/content-calendar-and-repurposing/SKILL.md"
+      "name": "chandra-ocr",
+      "path": "collections/audio-video-production/chandra-ocr/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Chandra OCR 2 is an open-weights model from Datalab that converts page images and PDFs into Markdown, HTML or JSON layout chunks, keeping tables, math, forms with checkboxes and handwriting. Use when a user asks to OCR a scanned PDF, pull tables out of an image, read handwritten forms, or run a local or vLLM-served document OCR model with the chandra CLI or Python package.",
+      "license": "Apache-2.0",
+      "metadata_author": null
     },
     {
-      "name": "hooks-scripts-and-captions",
-      "path": "skills/hooks-scripts-and-captions/SKILL.md"
+      "name": "claude-video-main",
+      "path": "collections/audio-video-production/claude-video-main/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "AI-powered video production suite: editing, transcoding, captioning, analysis, creation, shortform pipeline, image/video generation, web screenshots, AI audio/video enhancement. Uses FFmpeg, Whisper, PySceneDetect, FLUX.2, Veo, Playwright, Real-ESRGAN, Demucs, and Remotion. GPU-accelerated with NVIDIA NVENC. Use when user says \"video\", \"ffmpeg\", \"trim\", \"cut\", \"transcode\", \"caption\", \"export\", \"analyze\", \"download\", \"create video\", \"shorts\", \"tiktok clips\", \"generate image\", \"generate video\", \"screenshot\", \"upscale\", \"enhance\", \"denoise\", \"separate vocals\", \"face restore\", \"slow motion\", \"remove background\", or \"/video\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
-      "name": "trend-and-competitor-research",
-      "path": "skills/trend-and-competitor-research/SKILL.md"
+      "name": "clawic-animations",
+      "path": "collections/audio-video-production/clawic-animations/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create performant web animations with proper accessibility and timing.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
-      "name": "social-analytics-and-optimization",
-      "path": "skills/social-analytics-and-optimization/SKILL.md"
+      "name": "clawic-audio",
+      "path": "collections/audio-video-production/clawic-audio/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Process, enhance, and convert audio files with noise removal, normalization, format conversion, transcription, and podcast workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-gif",
+      "path": "collections/audio-video-production/clawic-gif/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Find, search, and create GIFs with proper optimization and accessibility.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-image",
+      "path": "collections/audio-video-production/clawic-image/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platform-export checks. Use when (1) the task is about images, screenshots, logos, product photos, or graphics; (2) resizing, converting, compressing, cropping, metadata, or export specs matter; (3) the asset must survive web, social, ecommerce, or print delivery without quality or format mistakes.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-image-edit",
+      "path": "collections/audio-video-production/clawic-image-edit/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Edit images with AI inpainting, outpainting, background removal, upscaling, and restoration tools.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-image-generation",
+      "path": "collections/audio-video-production/clawic-image-generation/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create AI images with GPT Image, Gemini Nano Banana, FLUX, Imagen, and top providers using prompt engineering, style control, and smart editing.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-music",
+      "path": "collections/audio-video-production/clawic-music/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Build a personal music system for tracking discoveries, favorites, concerts, and listening memories.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-music-generation",
+      "path": "collections/audio-video-production/clawic-music-generation/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate AI music with optimized prompts, style control, and production-ready audio output.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-photography",
+      "path": "collections/audio-video-production/clawic-photography/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Camera settings, composition, lighting, editing workflow, and genre-specific techniques.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-photos",
+      "path": "collections/audio-video-production/clawic-photos/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Organize, index, and search local photo libraries with AI-powered metadata and safe file handling.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-speech-to-text-transcription",
+      "path": "collections/audio-video-production/clawic-speech-to-text-transcription/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Transcribe audio and video files to text with speaker detection, timestamps, and format conversion.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-storybook",
+      "path": "collections/audio-video-production/clawic-storybook/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Build component stories with proper args, controls, decorators, and testing patterns.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-storytelling",
+      "path": "collections/audio-video-production/clawic-storytelling/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Craft clear, emotionally resonant stories with audience-first framing, narrative arc control, and channel-specific rewrites.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-translate",
+      "path": "collections/audio-video-production/clawic-translate/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Translates and localizes text, software strings, documents, subtitles, and marketing copy between any language pair. Use when translating anything, when fixing a translation that reads machine-made, or when localizing a product: ICU plurals and gender, placeholders that must survive, string catalogs (JSON, XLIFF, .po, .strings, .xcstrings, ARB, RESX, YAML), locale codes and fallback chains, RTL and bidi breakage, CJK typography, mojibake, text expansion that overflows the UI, subtitle timing and reading speed, hreflang and multilingual SEO, glossaries, translation memory and fuzzy matches, and post-editing machine output. Use when choosing register (tu/vous, tú/usted, du/Sie, keigo), between es-ES and es-419 or zh-Hans and zh-Hant, or when a certified, legal, or medical translation carries liability. Not for writing original copy natively in one language (spanish, french, german, japanese, chinese) or generating captions from audio (video-captions).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-video",
+      "path": "collections/audio-video-production/clawic-video/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Process, edit, and optimize videos for any platform with compression, format conversion, captioning, and repurposing workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-video-captions",
+      "path": "collections/audio-video-production/clawic-video-captions/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate professional captions and subtitles with multi-engine transcription, word-level timing, styling presets, and burn-in.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-video-downloader",
+      "path": "collections/audio-video-production/clawic-video-downloader/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Download online videos with quality and format controls using yt-dlp for reliable local saves.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-video-edit",
+      "path": "collections/audio-video-production/clawic-video-edit/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Edit videos with AI background removal, color grading, upscaling, stabilization, and enhancement tools.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-video-generation",
+      "path": "collections/audio-video-production/clawic-video-generation/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create AI videos with Sora 2, Veo 3, Seedance, Runway, and modern APIs using reliable prompt and rendering workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "clawic-voice-notes",
+      "path": "collections/audio-video-production/clawic-voice-notes/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Organize voice message transcripts into a structured, searchable knowledge base with tags, links, and progressive note-taking.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "comfyui",
+      "path": "collections/audio-video-production/comfyui/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "ComfyUI is a node-based interface and HTTP server for running Stable Diffusion and other diffusion models as graph workflows. Use when a user asks to install ComfyUI, generate images from a script through the ComfyUI API, queue a workflow JSON, add ControlNet or LoRA nodes, install custom nodes with ComfyUI-Manager, or poll for results and download the images.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "comfyui-gateway",
+      "path": "collections/audio-video-production/comfyui-gateway/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "REST API gateway for ComfyUI servers. Workflow management, job queuing, webhooks, caching, auth, rate limiting, and image delivery (URL + base64).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "renat"
+    },
+    {
+      "name": "dalle-api",
+      "path": "collections/audio-video-production/dalle-api/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "DALL-E API successor: the OpenAI Images API with the gpt-image models, which replaced DALL-E 2 and DALL-E 3 (shut down 2026-05-12). Covers text-to-image generation, edits with masks and multiple reference images, sizes, quality, output formats, base64 handling and moderation. Use when generating or editing images with OpenAI, migrating old dall-e-3 code, or fixing \"model not found\" errors from dall-e-2/dall-e-3 calls.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs",
+      "path": "collections/audio-video-production/elevenlabs/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate realistic speech with the ElevenLabs API and its Python and Node.js SDKs. Use when a user asks to convert text to speech, stream audio, clone a voice, pick a TTS model, or build a voice agent with ElevenLabs.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-agents",
+      "path": "collections/audio-video-production/elevenlabs-agents/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience, and when configuring an agent's tools, workflows, or procedures, including creating, editing, and publishing free-form and structured procedure drafts on an agent branch over the SDKs or REST API.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-dubbing",
+      "path": "collections/audio-video-production/elevenlabs-dubbing/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Dub audio and video into other languages using the ElevenLabs Dubbing API (dubbing_v2), preserving the original speakers' voices. Use when translating videos, podcasts, or recordings into other languages, localizing media content, reviewing or correcting dubbing transcripts and translations, or regenerating a dub after edits.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-music",
+      "path": "collections/audio-video-production/elevenlabs-music/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-realtime",
+      "path": "collections/audio-video-production/elevenlabs-realtime/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Use ElevenLabs Realtime models (`eleven_realtime_v1_mini`, `eleven_realtime_v1_max`), the low-latency models built for voice conversation. Use when the user wants to create an ElevenAgents agent on a Realtime model or switch an existing agent's Voice mode to Realtime, set `conversation_config.realtime_model`, choose between Realtime Mini and Max, or debug a Realtime agent that won't publish or transfer. Also use when migrating a voice app built on OpenAI's Realtime API and SDK (`@openai/agents-realtime`, `gpt-realtime`) to the OpenAI-compatible ElevenLabs Realtime API, including the `client_secrets` mint, the WebSocket transport, and audio after leaving WebRTC (closes with 4001/4003, no audio). Not for choosing an agent's LLM or TTS model in Custom mode, Scribe realtime speech-to-text, or migrating Chat Completions or Responses API text calls.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-setup-api-key",
+      "path": "collections/audio-video-production/elevenlabs-setup-api-key/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Fix or hand-configure an existing ElevenLabs API key. Use when a key stopped working (401 or invalid_api_key), when an administrator issued the key, when the user's role cannot create keys, or when the user already has a key and needs it in the right place. Checks whether ELEVENLABS_API_KEY is configured and valid, without reading it into the conversation. Not for first-time setup or adding ElevenLabs to a project (use onboarding).",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-sound-effects",
+      "path": "collections/audio-video-production/elevenlabs-sound-effects/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-speech-engine",
+      "path": "collections/audio-video-production/elevenlabs-speech-engine/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Add real-time voice conversations to a custom agent runtime with ElevenLabs Speech Engine. Use when building Speech Engine servers, WebSocket handlers, WebRTC browser clients, conversation token endpoints, interruption-aware streaming responses, or voice-enabled chat agents that connect developer-owned server logic to ElevenLabs speech-to-text and text-to-speech.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-speech-to-text",
+      "path": "collections/audio-video-production/elevenlabs-speech-to-text/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Transcribe audio to text using ElevenLabs Scribe v3. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-text-to-speech",
+      "path": "collections/audio-video-production/elevenlabs-text-to-speech/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 90+ languages.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-voice-changer",
+      "path": "collections/audio-video-production/elevenlabs-voice-changer/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Transform the voice in an audio recording into a different target voice while preserving emotion, timing, and delivery using the ElevenLabs Voice Changer (speech-to-speech) API. Use when converting one voice to another, changing the speaker/narrator of an existing recording, dubbing a voice-over in a different voice, creating character voices from a scratch performance, anonymizing a speaker, or any \"voice conversion / voice transfer / speech-to-speech\" task. Make sure to use this skill whenever the user mentions voice changing, voice conversion, speech-to-speech, swapping a voice in audio, re-voicing a clip, or applying a different voice to an existing recording — even if they don't explicitly say \"voice changer\". Do not use this skill to create or clone a new voice from a voice sample — that is voice cloning (IVC/PVC), a separate feature; this skill only converts an existing recording into an existing voice_id.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "elevenlabs-voice-isolator",
+      "path": "collections/audio-video-production/elevenlabs-voice-isolator/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Remove background noise and isolate vocals/speech from audio using ElevenLabs Voice Isolator (audio isolation) API. Use when cleaning up noisy recordings, removing music or background ambience from dialogue, isolating speech from field recordings, preparing audio for transcription, extracting vocals, or any \"denoise / clean up / isolate voice\" task.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-ai",
+      "path": "collections/audio-video-production/fal-ai/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Run hosted image, video and audio AI models through the fal.ai API with the JavaScript or Python client. Use when generating images with Flux or LoRA, animating images into video, transcribing audio with Whisper, running inference through a queue with webhooks, or building AI media features.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-ai-media",
+      "path": "collections/audio-video-production/fal-ai-media/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos, or audio with AI.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-audio",
+      "path": "collections/audio-video-production/fal-audio/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Text-to-speech and speech-to-text using fal.ai audio models",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-generate",
+      "path": "collections/audio-video-production/fal-generate/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate images and videos using fal.ai AI models",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-platform",
+      "path": "collections/audio-video-production/fal-platform/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Platform APIs for model management, pricing, and usage tracking",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-workflow",
+      "path": "collections/audio-video-production/fal-workflow/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Generate workflow JSON files for chaining AI models",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flux-model",
+      "path": "collections/audio-video-production/flux-model/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "FLUX is Black Forest Labs' family of image generation models (FLUX.2, FLUX 3 Image, and the older FLUX.1 Dev, Schnell and Pro), available through the BFL API, fal.ai and Replicate. Use when generating photorealistic or product images, text-heavy graphics, exact brand colors, image editing with references, fast batch generation, or LoRA styles with FLUX.1 Dev or FLUX.2 klein. Covers model choice, request code for each provider, and licensing.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "moviepy",
+      "path": "collections/audio-video-production/moviepy/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Edit and compose video with Python using MoviePy. Use when a user asks to programmatically edit videos, create video montages, add text overlays, build automated video pipelines, composite multiple clips, apply video effects, generate social media videos from templates, concatenate clips, extract audio, create GIFs, build slideshows, add transitions, resize and crop videos, or integrate video editing into Python applications. Covers MoviePy 2.x for compositing, effects, text, and rendering.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "music-for-robots",
+      "path": "collections/audio-video-production/music-for-robots/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Optional music-inspired creative exercise for multimodal agents. Ingests an unquantized acoustic MP3 composition by Michael Luchtan (Music For Robots) into a private temporary directory, analyzing microtiming and texture to inspire creative writing, brainstorming, or technical tasks.",
+      "license": "MIT",
+      "metadata_author": "Michael Luchtan (luchtan-GIT)"
+    },
+    {
+      "name": "opencv",
+      "path": "collections/audio-video-production/opencv/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "OpenCV is an open-source computer vision library for image processing, video analysis, feature detection, camera calibration and DNN inference, with Python, C++ and JavaScript bindings. Use when asked to resize, blur, threshold or detect edges in images, find contours, read or write video, run an ONNX object detector, or build an OpenCV pipeline with cv2.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "pexels-footage",
+      "path": "collections/audio-video-production/pexels-footage/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Search and download copyright-free images and video clips from Pexels API. Supports both photo search (--type image) and video search (--type video, default).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "pixabay-footage",
+      "path": "collections/audio-video-production/pixabay-footage/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Search and download copyright-free images and video clips from Pixabay API. Alternative to pexels-footage when Pexels has no suitable results. Supports both photo search (--type image) and video search (--type video, default).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "podcast-edit",
+      "path": "collections/audio-video-production/podcast-edit/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Edit podcast audio or video — trim pre/post-show chat, remove filler words, cut silences, enhance audio quality, and cut a video version of the same edit. Use when the user asks to edit a podcast, clean up audio, remove fillers, trim a recording, or improve voice quality.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "pro-motion",
+      "path": "collections/audio-video-production/pro-motion/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Make a motion-graphics launch, brand or promo film audio first: plan the music, then render the film in code (canvas to MP4) cut to the track. Use for 发布视频, 宣传片, TVC, BGM, Suno prompts.",
+      "license": "MIT",
+      "metadata_author": "jack-reson8"
+    },
+    {
+      "name": "remotion-license",
+      "path": "collections/audio-video-production/remotion-license/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Find Remotion license information, FAQs, terms, and where to buy a license.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-maps",
+      "path": "collections/audio-video-production/remotion-maps/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Remotion Map animation knowledge",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-multimedia",
+      "path": "collections/audio-video-production/remotion-multimedia/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Interacting with Mediabunny",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-saas",
+      "path": "collections/audio-video-production/remotion-saas/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Build an app with Remotion",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-studio",
+      "path": "collections/audio-video-production/remotion-studio/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Preview a Remotion video",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-upgrade",
+      "path": "collections/audio-video-production/remotion-upgrade/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Upgrade Remotion, and related packages",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "replicate",
+      "path": "collections/audio-video-production/replicate/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Run machine learning models in the cloud via API. Access thousands of open-source models for image generation, language, audio, and video. Fine-tune models on custom data and deploy custom models with Cog packaging format.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "rive",
+      "path": "collections/audio-video-production/rive/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Build interactive animations with Rive — load .riv files, control state machines, respond to user input, and embed runtime animations in web and mobile apps. Use when tasks involve interactive UI animations, character animations with state logic, animated icons with hover/click states, or game-like interactions in production apps.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "runway-ml",
+      "path": "collections/audio-video-production/runway-ml/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Runway ML API generates and edits AI video and images from text, images or video, with models such as Gen-4.5, Gen-4 Turbo and Aleph 2.0. Use when generating video from a prompt or a still image, editing a clip with video-to-video, automating B-roll or product-ad pipelines, or polling Runway tasks from Python or Node.js.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "sfxmint",
+      "path": "collections/audio-video-production/sfxmint/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Find and add free CC0 sound effects to an app, game or video by event, set or description over a keyless API or MCP; generate a missing sound with an API key.",
+      "license": "CC0-1.0",
+      "metadata_author": "SFXMint"
+    },
+    {
+      "name": "soundza",
+      "path": "collections/audio-video-production/soundza/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Find, audition and add free sound effects, ambience or music to a game, video or app with Soundza, or generate a new sound effect from a prompt, over MCP or a REST API.",
+      "license": "MIT",
+      "metadata_author": "Soundza"
+    },
+    {
+      "name": "sox",
+      "path": "collections/audio-video-production/sox/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Processes audio files with SoX (Sound eXchange). Use when a user asks to apply audio effects, mix and combine audio tracks, convert audio formats, batch process audio files, normalize volume, trim silence, add reverb or echo, change tempo or pitch, split audio files, create spectrograms, generate test tones, resample audio, or build audio processing pipelines. Covers all SoX effects, format conversion, mixing, and batch workflows.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "stock-images",
+      "path": "collections/audio-video-production/stock-images/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Search for images on Unsplash and download them. Optionally add text overlay (title/subtitle) to the image. Use when the user asks to find a stock photo, search for an image, get an Unsplash image, or download a photo with text.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "talking-head-cut",
+      "path": "collections/audio-video-production/talking-head-cut/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "口播类视频（口播/演讲/访谈/直播）的轻剪辑——ASR 转写拿逐字时间戳，去口气词/结巴/静音，或识别高光段剪成集锦。仅做基于人声的轻剪辑，不出脚本不烧字幕；纯画面类素材的集锦剪辑走 video-edit。",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "unsplash-integration",
+      "path": "collections/audio-video-production/unsplash-integration/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Integration skill for searching and fetching high-quality, free-to-use professional photography from Unsplash.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "vibe-voice",
+      "path": "collections/audio-video-production/vibe-voice/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Run Microsoft's VibeVoice, open-source voice AI for long-form speech recognition with speaker labels and timestamps, plus real-time text-to-speech. Use when: transcribing meetings or podcasts with diarization, adding hotwords for domain terms, streaming speech recognition, serving ASR through vLLM, or building a voice assistant with a 0.5B streaming TTS model.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "video-ad-analysis",
+      "path": "collections/audio-video-production/video-ad-analysis/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Deconstruct and analyze video ad creatives for marketing insights. Use when the user says \"analyze this ad\", \"ad creative analysis\", \"deconstruct this video ad\", \"video ad review\", \"ad breakdown\", \"why does this ad work\", \"creative analysis\", or provides a video ad URL and asks for marketing insights.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-analyze",
+      "path": "collections/audio-video-production/video-analyze/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Video analysis and inspection using FFprobe and FFmpeg. Reads metadata, codec info, resolution, bitrate, duration, HDR status, keyframe structure, audio loudness, scene boundaries, and quality metrics (VMAF, SSIM, PSNR). Use when user says \"analyze\", \"inspect\", \"info\", \"metadata\", \"quality\", \"VMAF\", \"SSIM\", \"PSNR\", \"scene detect\", \"keyframes\", \"HDR\", \"bitrate\", \"ffprobe\", or \"what codec\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-audio",
+      "path": "collections/audio-video-production/video-audio/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Audio processing for video files using FFmpeg. Loudness normalization to streaming standards (LUFS), noise reduction, audio mixing, extraction, replacement, silence detection and removal, equalization, compression, fade effects, format conversion, and audio ducking. Use when user says \"audio\", \"normalize\", \"volume\", \"loudness\", \"LUFS\", \"noise\", \"silence\", \"extract audio\", \"replace audio\", \"mix audio\", \"equalizer\", \"compress audio\", \"ducking\", or \"sidechain\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-caption",
+      "path": "collections/audio-video-production/video-caption/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Speech-to-text transcription and animated subtitle generation using Whisper and FFmpeg. Creates word-by-word animated captions (karaoke-style), SRT/ASS/VTT subtitles, burns subtitles into video, extracts existing subtitles, converts between formats, and styles captions with custom fonts, colors, and animations. Use when user says \"caption\", \"subtitle\", \"transcribe\", \"whisper\", \"SRT\", \"ASS\", \"VTT\", \"burn-in\", \"hardcode subtitles\", \"word by word\", \"karaoke\", or \"add text\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-create",
+      "path": "collections/audio-video-production/video-create/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Programmatic video creation using Remotion (React-based). Generates title cards, data visualizations, motion graphics, branded intros/outros, animated text, and template-based videos from data. Claude writes React components, Remotion renders them headlessly to video. Use when user says \"create video\", \"title card\", \"intro\", \"outro\", \"motion graphics\", \"animated text\", \"data visualization video\", \"remotion\", \"programmatic video\", or \"generate video from data\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-download",
+      "path": "collections/audio-video-production/video-download/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Video downloading via yt-dlp with format selection, quality control, subtitle download, audio-only extraction, and playlist support. Downloads from YouTube, Vimeo, Twitter, TikTok, and 1000+ other sites. Use when user says \"download video\", \"download from youtube\", \"yt-dlp\", \"grab video\", \"save video\", \"download audio\", \"download playlist\", or provides a video URL to download.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-edit",
+      "path": "collections/audio-video-production/video-edit/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Video editing operations using FFmpeg: trimming, cutting, splitting, concatenation, speed changes, cropping, scaling, rotation, overlays, picture-in-picture, green screen removal, video stabilization, transitions, fades, privacy blur, LUT color grading, and motion tracking text. Use when user says \"trim\", \"cut\", \"split\", \"merge\", \"concat\", \"speed up\", \"slow down\", \"crop\", \"scale\", \"rotate\", \"overlay\", \"watermark\", \"pip\", \"green screen\", \"stabilize\", \"transition\", \"fade\", \"blur face\", \"privacy\", \"censor\", \"LUT\", \"color grade\", or \"tracking text\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-enhance",
+      "path": "collections/audio-video-production/video-enhance/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "AI video enhancement using Real-ESRGAN (4x upscaling, 720p to 4K, 2-6GB VRAM), Practical-RIFE (frame interpolation for smooth slow motion, 60+ FPS at 720p), CodeFormer (face restoration for old/low-quality footage, adjustable fidelity), and rembg (transparent video via background removal, VP9+alpha or ProRes 4444). Use when user says \"upscale\", \"enhance video\", \"4K\", \"super resolution\", \"frame interpolation\", \"slow motion AI\", \"smooth slow motion\", \"restore faces\", \"fix faces\", \"remove video background\", \"transparent video\", \"increase resolution\", or \"improve quality\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-enhance-audio",
+      "path": "collections/audio-video-production/video-enhance-audio/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "AI-powered audio enhancement for video using Demucs v4 (source separation, isolate vocals/drums/bass/other, 7GB VRAM), pyannote-audio 4.0 + WhisperX (speaker diarization), DeepFilterNet3 (AI noise reduction, superior to FFmpeg), ElevenLabs/OpenAI/Bark TTS (voiceover generation), and AudioSR (phone-to-studio quality upsampling). Use when user says \"separate audio\", \"isolate vocals\", \"remove music\", \"diarize\", \"speaker detection\", \"AI denoise\", \"deep noise reduction\", \"voiceover\", \"TTS\", \"text to speech\", \"upsample audio\", \"enhance audio quality\", or \"studio quality audio\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-export",
+      "path": "collections/audio-video-production/video-export/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "One-command platform-optimized video export using FFmpeg. Produces ready-to-upload files for YouTube, TikTok, Instagram Reels, Instagram Feed, LinkedIn, Web (WebM), Podcast (audio-only), and high-quality GIF. Handles resolution, codec, bitrate, aspect ratio, and container requirements per platform. Use when user says \"export\", \"youtube\", \"tiktok\", \"reels\", \"shorts\", \"instagram\", \"linkedin\", \"web\", \"webm\", \"gif\", \"podcast\", or \"platform export\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-generate",
+      "path": "collections/audio-video-production/video-generate/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "AI video generation from text or image prompts using Google Veo 3.1 Fast ($0.15/sec, native audio, 8s clips, up to 4K), Runway Gen-4 Turbo ($0.05/sec, silent B-roll, 10s), or local Stable Video Diffusion (free, 2-4s). Generates transition clips, B-roll footage, animated intros/outros, establishing shots, and image-to-video animations. Use when user says \"generate video\", \"AI video\", \"video from text\", \"video from image\", \"B-roll\", \"veo\", \"runway\", \"text to video\", \"image to video\", or \"create footage\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-image",
+      "path": "collections/audio-video-production/video-image/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "AI image generation for video production using Gemini 3 Pro Image / Nano Banana Pro (API, up to 4K, $0.13-0.24/image), FLUX.2 klein 4B (local, sub-second, 13GB VRAM), SD 3.5 Medium (local fallback, 6GB), or OpenAI GPT Image 1 Mini API ($0.005/image, transparent PNGs). Generates thumbnails, backgrounds, overlays, lower thirds, title cards, and B-roll stills at video-native resolutions. Background removal via rembg. Use when user says \"generate image\", \"create image\", \"AI image\", \"thumbnail\", \"background image\", \"overlay image\", \"transparent png\", \"gemini image\", \"nano banana\", \"flux\", \"stable diffusion\", \"remove background\", or \"image for video\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-promo",
+      "path": "collections/audio-video-production/video-promo/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create promo videos using free stock footage (Pixabay/Pexels) as backgrounds with Remotion text overlays, transitions, effects, and audio. Contrast-aware text placement adapts to background brightness. Use when user says \"promo video\", \"stock footage video\", \"marketing video\", \"video with stock\", \"/video promo\", or describes creating a video from stock clips with text overlays.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-review",
+      "path": "collections/audio-video-production/video-review/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "成片自检闸门——ffprobe 校验 + 5 位抽帧黑帧扫 + 音频电平 + 时长/分辨率一致性，verdict pass/fail/warn。各视频生产技能合成后、交付前必跑。",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-screenshot",
+      "path": "collections/audio-video-production/video-screenshot/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Web screenshot capture for video production using Playwright. Takes full-page, viewport, or element-specific screenshots at video-native dimensions (1920x1080, 1080x1920). Device emulation (100+ presets), CSS injection to hide ads/banners, authentication persistence, Ken Burns zoom/pan animation from screenshots, browser session recording, and batch URL capture. Use when user says \"screenshot\", \"web capture\", \"capture website\", \"screenshot for video\", \"web to image\", \"record browser\", \"ken burns\", \"web recording\", \"page capture\", or \"capture URL\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-shorts",
+      "path": "collections/audio-video-production/video-shorts/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Longform-to-shortform video pipeline that automatically extracts viral-ready short clips from long videos. V3 pipeline with VLM-powered visual analysis (Gemini 2.5 Flash), auto-detects screen recordings vs talking-head, uses \"Framed\" layout for screen content (padded top/bottom with centered captions), face-tracked crop for talking-head. Transcribes with WhisperX, scores by visual interest + transcript quality, adds karaoke captions, hook text, normalizes audio. Use when user says \"shorts\", \"clips\", \"highlight\", \"shortform\", \"reels\", \"tiktok clips\", \"extract clips\", \"viral clips\", \"repurpose\", \"longform to shortform\", \"auto clip\", \"find best moments\", or \"screen recording shorts\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-transcode",
+      "path": "collections/audio-video-production/video-transcode/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Video transcoding and codec conversion using FFmpeg with GPU acceleration. Converts between H.264, H.265, AV1, VP9, ProRes, and DNxHR. Handles compression, quality optimization, two-pass encoding, container remuxing, and batch processing. Use when user says \"convert\", \"transcode\", \"compress\", \"encode\", \"change format\", \"h264\", \"h265\", \"hevc\", \"av1\", \"prores\", \"mkv to mp4\", \"reduce file size\", \"remux\", \"make smaller\", \"file too big\", \"shrink video\", \"smaller file\", \"video too large\", \"reduce quality\", or \"change codec\". Also trigger when user describes needing a video in a different format or wanting to reduce file size for email, upload, or storage.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "visual-emotion-engineer",
+      "path": "collections/audio-video-production/visual-emotion-engineer/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Create a visual direction brief for color, typography, imagery, and hierarchy when design must support a defined emotion, culture, and accessibility needs.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "web-media-getter",
+      "path": "collections/audio-video-production/web-media-getter/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "One query across free image / video / GIF APIs (stock + historical/archival + GIF engines), returning normalized, license-tagged results with optional top-K download + attribution sidecar. The retrieval peer to local semantic search and generative media.",
+      "license": "MIT",
+      "metadata_author": "Conner K Ward"
+    },
+    {
+      "name": "whisper",
+      "path": "collections/audio-video-production/whisper/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Transcribe audio to text with OpenAI Whisper, an open-source speech recognition model that runs locally or through hosted APIs. Use when a user asks to transcribe audio files, generate subtitles (SRT/VTT), transcribe podcasts, convert speech to text, translate audio to English, build transcription pipelines, do speaker diarization, transcribe meetings, process voice memos, create searchable audio archives, or integrate speech-to-text into applications. Covers OpenAI Whisper (local), Whisper API, faster-whisper, whisper.cpp, and production deployment patterns.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-analytics",
+      "path": "collections/audio-video-production/youtube-analytics/SKILL.md",
+      "collection": "audio-video-production",
+      "description": "Analyze YouTube channel and video performance using the YouTube Data API. Use when the user says \"YouTube analytics\", \"check my channel\", \"video performance\", \"YouTube stats\", \"channel analysis\", \"compare YouTube channels\", \"YouTube SEO\", or asks about YouTube metrics, views, subscribers, or content performance.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "after-effects",
+      "path": "collections/motion-design-adobe/after-effects/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Automate Adobe After Effects via ExtendScript. Use when the user asks to create, modify, or query anything in an After Effects project — layers, keyframes, expressions, effects, compositions, assets, rendering, batch operations. Generates and executes JSX ExtendScript via osascript on macOS.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ai-video-generator",
+      "path": "collections/motion-design-adobe/ai-video-generator/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Generate short-form videos with AI — script writing, text-to-speech narration, stock footage selection, subtitle generation, and video assembly. Use when: creating TikTok/YouTube Shorts/Reels content, automating video production, building content pipelines.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "animate",
+      "path": "collections/motion-design-adobe/animate/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Build purposeful web animations with appropriate tools, easing, duration, interruption, exits, and reduced-motion support.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "animation-performance",
+      "path": "collections/motion-design-adobe/animation-performance/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Diagnose dropped animation frames and choose properties, rendering paths, and profiling checks for smooth web motion.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "animation-vocabulary",
+      "path": "collections/motion-design-adobe/animation-vocabulary/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Name a described animation effect using a reverse-lookup motion glossary.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "animejs-animation",
+      "path": "collections/motion-design-adobe/animejs-animation/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Advanced JavaScript animation library skill for creating complex, high-performance web animations.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "article-illustrations",
+      "path": "collections/motion-design-adobe/article-illustrations/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors.",
+      "license": "MIT",
+      "metadata_author": "vipin-si"
+    },
+    {
+      "name": "audio-transcriber",
+      "path": "collections/motion-design-adobe/audio-transcriber/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Transform audio recordings into professional Markdown documentation with intelligent summaries using LLM integration",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "blender-animation",
+      "path": "collections/motion-design-adobe/blender-animation/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Animates 3D objects and characters in Blender with Python (bpy): keyframes, armatures and IK rigs, shape keys, F-Curves, the NLA editor and drivers. Use when the user wants to keyframe properties, create armatures and rigs, set up IK/FK chains, animate shape keys for facial animation, edit F-Curves, blend actions with NLA strips, add drivers, or script any animation workflow in Blender from the terminal.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "blender-compositing",
+      "path": "collections/motion-design-adobe/blender-compositing/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Blender's compositor post-processes renders with a node graph, and this skill scripts it from Python (bpy) in Blender 5.x. Use when the user wants to set up compositor nodes, add post-processing effects, color correct renders, combine render passes, apply blur or glare, key green screens, write passes to multilayer EXR, or port a compositing script that broke after Blender 5.0 (scene.node_tree, CompositorNodeComposite, glare_type and file_slots are gone).",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "blender-grease-pencil",
+      "path": "collections/motion-design-adobe/blender-grease-pencil/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Create 2D art and animation in Blender using Grease Pencil and Python. Use when the user wants to draw strokes programmatically, create 2D animations, build Grease Pencil objects from code, manage GP layers and frames, apply GP modifiers, set up drawing guides, or script any Grease Pencil workflow in Blender.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "blender-vse-pipeline",
+      "path": "collections/motion-design-adobe/blender-vse-pipeline/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Automate video editing in Blender's Video Sequence Editor with Python. Use when the user wants to add video, image, or audio strips, create transitions, apply effects, build edit timelines, batch assemble footage, estimate render times, or script any VSE workflow from the command line.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "canvas-design",
+      "path": "collections/motion-design-adobe/canvas-design/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "copy-editing",
+      "path": "collections/motion-design-adobe/copy-editing/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "davinci-resolve",
+      "path": "collections/motion-design-adobe/davinci-resolve/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Automate and script DaVinci Resolve workflows. Use when a user asks to script DaVinci Resolve via Python/Lua API, automate color grading, batch render projects, manage timelines programmatically, automate media import, build render queues, create Fusion compositions via script, automate Fairlight audio processing, manage project databases, build custom tool scripts, or integrate Resolve into production pipelines. Covers the Resolve Scripting API (Python/Lua), Fusion scripting, and workflow automation.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "emotional-arc-designer",
+      "path": "collections/motion-design-adobe/emotional-arc-designer/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Map the emotional progression of a narrative, page, or campaign when content needs a coherent path from attention to action.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-image-edit",
+      "path": "collections/motion-design-adobe/fal-image-edit/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "AI-powered image editing with style transfer and object removal",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "fal-upscale",
+      "path": "collections/motion-design-adobe/fal-upscale/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Upscale and enhance image and video resolution using AI",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ffmpeg",
+      "path": "collections/motion-design-adobe/ffmpeg/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Transcode, convert, edit, and process audio and video with FFmpeg. Use when a user asks to convert video formats (webm to mp4, mkv to mp4), extract audio from video, compress video files, trim or cut clips, concatenate videos, add subtitles, create thumbnails, apply filters, change resolution or bitrate, re-encode media, create GIFs from video, add watermarks, normalize audio, stream media, or build automated media processing pipelines.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "find-animation-opportunities",
+      "path": "collections/motion-design-adobe/find-animation-opportunities/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Propose purposeful motion opportunities from a read-only codebase review, with evidence and explicit exclusions.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "fixing-motion-performance",
+      "path": "collections/motion-design-adobe/fixing-motion-performance/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-adobe",
+      "path": "collections/motion-design-adobe/flue-adobe/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe desktop apps - Photoshop, Illustrator, Premiere, After Effects, InDesign, Audition - from the shell via Flue, without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-audition",
+      "path": "collections/motion-design-adobe/flue-audition/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe Audition from the shell via Flue - ExtendScript bridges without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-illustrator",
+      "path": "collections/motion-design-adobe/flue-illustrator/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe Illustrator from the shell via Flue - ExtendScript bridges without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-indesign",
+      "path": "collections/motion-design-adobe/flue-indesign/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe InDesign from the shell via Flue - ExtendScript bridges without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-photoshop",
+      "path": "collections/motion-design-adobe/flue-photoshop/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe Photoshop from the shell via Flue - ExtendScript bridges without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "flue-premiere",
+      "path": "collections/motion-design-adobe/flue-premiere/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Control Adobe Premiere Pro from the shell via Flue - ExtendScript bridges without an MCP server.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "gsap",
+      "path": "collections/motion-design-adobe/gsap/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "GSAP is a JavaScript animation library for tweens, timelines, scroll-driven animation (ScrollTrigger), SVG morphing and text splitting. Use it when building complex timelines, scroll-linked animations, SVG morphing, text animations, or high-performance web animations beyond CSS capabilities.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "i18n-localization",
+      "path": "collections/motion-design-adobe/i18n-localization/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "image-analysis",
+      "path": "collections/motion-design-adobe/image-analysis/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Turns an image into facts an agent can build from: file properties, a color palette with the area each color covers, the colors and sizes of individual elements, and a structured description of layout and style. Use when someone asks to \"extract the colors from this screenshot\", \"get a palette from this photo\", \"match my CSS to this mockup\", \"what colors and sizes does this design use\", \"describe this reference image\", or \"why does this image look wrong\". Produces CSS variables, a Tailwind theme block or a written brief.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "image-studio",
+      "path": "collections/motion-design-adobe/image-studio/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Studio de geracao de imagens inteligente — roteamento automatico entre ai-studio-image (fotos humanizadas/influencer) e stability-ai (arte/ ilustracao/edicao). Detecta o tipo de imagem solicitada e escolhe o modelo ideal automaticamente.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "renat"
+    },
+    {
+      "name": "image-to-text",
+      "path": "collections/motion-design-adobe/image-to-text/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Extracts text and its structure from an image by the route that fits the picture: an OCR engine for clean printed text, the agent's own vision for photos, tables, forms and handwriting, or both, and then checks the result before handing it over. Use when someone asks to \"read the text in this screenshot\", \"transcribe this photo\", \"turn this table image into CSV\", \"pull the fields from this receipt\", \"what does this label say\", or needs amounts, dates and codes copied exactly. For engine options see the tesseract skill; for scanned PDFs see pdf-ocr.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "imagemagick",
+      "path": "collections/motion-design-adobe/imagemagick/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "ImageMagick is a command-line toolkit for converting, resizing, cropping, compositing and inspecting images in over 200 formats. Use it to batch resize photos, convert PNG or SVG to WebP, generate thumbnails, add watermarks, build contact sheets and animated GIFs, or read image metadata with `magick`, `magick mogrify` and `magick identify`.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "imagen",
+      "path": "collections/motion-design-adobe/imagen/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI placeholders, documentation, and design assets.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "improve-animations",
+      "path": "collections/motion-design-adobe/improve-animations/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Audit existing motion and write prioritized implementation plans with exact evidence, scope, and verification steps.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "logo-to-stickers",
+      "path": "collections/motion-design-adobe/logo-to-stickers/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Turn a brand mark or existing IP into consistent, playful paper stickers with small visual stories and separate transparent images. Use for brand characters and website sticker sets.",
+      "license": "MIT",
+      "metadata_author": "huyanxius"
+    },
+    {
+      "name": "lottie",
+      "path": "collections/motion-design-adobe/lottie/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Lottie plays vector animations exported from After Effects and other motion tools as JSON, rendered in the browser by the lottie-web player. Use when tasks involve adding motion graphics, animated icons, loading indicators, or micro-interactions to a web app: loading JSON or .lottie animation files, controlling playback, listening to events, recoloring at runtime, or integrating animations into React, Vue, or vanilla JS.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "manim-video",
+      "path": "collections/motion-design-adobe/manim-video/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a clean animated explainer rather than a generic talking-head script.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "md2video-audio",
+      "path": "collections/motion-design-adobe/md2video-audio/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Convert Markdown documents into narrated MP4 videos with synchronized visuals and voice narration.",
+      "license": "Apache-2.0",
+      "metadata_author": "70v-Yoyo"
+    },
+    {
+      "name": "motion",
+      "path": "collections/motion-design-adobe/motion/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Motion (formerly Framer Motion) is an animation library for React that animates components through declarative props. Use when adding fade-ins, hover and tap effects, exit animations with AnimatePresence, layout and shared-element transitions, scroll-linked or scroll-triggered effects, staggered lists, or when migrating from framer-motion to the motion package.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "motion-advanced",
+      "path": "collections/motion-design-adobe/motion-advanced/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the full API decision tree. Requires motion-foundations. Use when building drag and drop, gestures, text or SVG animation, or imperative animation sequences in React or Next.js.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "jeff"
+    },
+    {
+      "name": "motion-foundations",
+      "path": "collections/motion-design-adobe/motion-foundations/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Motion tokens, spring presets, performance rules, device adaptation, accessibility enforcement, and SSR safety for React / Next.js using motion/react. Foundation layer — all other motion skills depend on this. Use when setting up motion tokens, spring presets, reduced-motion handling, or SSR-safe animation in React or Next.js.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "jeff"
+    },
+    {
+      "name": "motion-patterns",
+      "path": "collections/motion-design-adobe/motion-patterns/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Production-ready animation patterns for React / Next.js — button, modal, toast, stagger, page transitions, exit animations, scroll, and layout — built on motion-foundations tokens and springs. Use when animating a specific UI element in React or Next.js — button, modal, toast, stagger, page transition, or scroll.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "jeff"
+    },
+    {
+      "name": "photopea-embedded-editor",
+      "path": "collections/motion-design-adobe/photopea-embedded-editor/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and selected Photoshop-like scripting patterns.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion",
+      "path": "collections/motion-design-adobe/remotion/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-best-practices",
+      "path": "collections/motion-design-adobe/remotion-best-practices/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Best practices for Remotion - Video creation in React",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-create",
+      "path": "collections/motion-design-adobe/remotion-create/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Create a new Remotion video",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-docs",
+      "path": "collections/motion-design-adobe/remotion-docs/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Search Remotion documentation",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-interactivity",
+      "path": "collections/motion-design-adobe/remotion-interactivity/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Structure Remotion markup for interactivity",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-render",
+      "path": "collections/motion-design-adobe/remotion-render/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Export a Remotion video",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-video-creation",
+      "path": "collections/motion-design-adobe/remotion-video-creation/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio, captions, charts, or transitions.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-video-toolkit",
+      "path": "collections/motion-design-adobe/remotion-video-toolkit/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Programmatic video creation with React using Remotion. Use when a user asks to create videos with code, generate personalized videos, build animated data visualizations, add TikTok-style captions, render video programmatically, or automate video production. Supports CLI rendering, AWS Lambda, and Google Cloud Run deployment.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "reverse-any-video",
+      "path": "collections/motion-design-adobe/reverse-any-video/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Reconstruct authorized video as an editable HyperFrames project, with measured timing, rights and likeness boundaries.",
+      "license": "Apache-2.0",
+      "metadata_author": "HeyGen"
+    },
+    {
+      "name": "reverse-image-search",
+      "path": "collections/motion-design-adobe/reverse-image-search/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Reverse Image Search. Use when working with image or public image URL.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "review-animations",
+      "path": "collections/motion-design-adobe/review-animations/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Review motion code against a craft, performance, accessibility, and interaction-quality standard with evidence.",
+      "license": "MIT",
+      "metadata_author": "Emil Kowalski"
+    },
+    {
+      "name": "slack-gif-creator",
+      "path": "collections/motion-design-adobe/slack-gif-creator/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "svgo",
+      "path": "collections/motion-design-adobe/svgo/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "SVGO is a Node.js tool that optimizes SVG files by removing editor metadata, comments and redundant attributes and by shortening paths. Use when asked to reduce SVG file size, clean up SVGs exported from Figma, Illustrator or Sketch, configure SVGO plugins, optimize icons in a build, or fix an SVG that broke after optimization (lost viewBox, title or IDs).",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "tasteforge-video",
+      "path": "collections/motion-design-adobe/tasteforge-video/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Use for file-driven multimodal image, video, and 3D-asset discovery; taste interviews; distill or apply workflows; style-pack validation; editable EDL/FCPXML export; provenance audits; and offline planning that must fail closed before provider generation.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "text-translator",
+      "path": "collections/motion-design-adobe/text-translator/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Text Translator. Use when working with source text and target language or locale.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "threejs-animation",
+      "path": "collections/motion-design-adobe/threejs-animation/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ui-motion",
+      "path": "collections/motion-design-adobe/ui-motion/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Apply a named StyleSeed motion to a component — either one of the 5 personality seeds (Spring/Silk/Snap/Float/Pulse × entrance/exit/hover/press/layout) or a distinctive keyword move from the motion library (toggle-flip, toggle-curtain, reveal-blur, pop-in, shimmer, …).",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "video-editing",
+      "path": "collections/motion-design-adobe/video-editing/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video, cut footage, create vlogs, or build video content.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-router",
+      "path": "collections/motion-design-adobe/video-router/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Route a video-production brief to generation, deterministic composition, supplied-footage editing, or an automatic cross-modal plan before production begins.",
+      "license": "MIT",
+      "metadata_author": "Orkas-AI"
+    },
+    {
+      "name": "youtube-transcription",
+      "path": "collections/motion-design-adobe/youtube-transcription/SKILL.md",
+      "collection": "motion-design-adobe",
+      "description": "Transcribe YouTube videos to text using OpenAI Whisper and yt-dlp. Use when the user wants to get a transcript from a YouTube video, generate subtitles, convert video speech to text, create SRT/VTT captions, or extract spoken content from YouTube URLs.",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "ai-blog-intro-writer",
+      "path": "collections/social-media-youtube/ai-blog-intro-writer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "AI Blog Intro Writer. Use when working with topic and article angle, or article draft.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "analytics-dashboard",
+      "path": "collections/social-media-youtube/analytics-dashboard/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Turn a LinkedIn Analytics export into an interactive dark-themed React dashboard plus a written strategic analysis with 5 data-backed content recommendations. Reads every sheet in the export, builds charts for engagement trend, follower growth, post performance scatter, day-of-week heatmap, and audience breakdown. Use this skill whenever the user says \"analyse my linkedin\", \"linkedin analytics\", \"build my dashboard\", \"review my performance\", or uploads a LinkedIn Analytics export file. Requires the user's LinkedIn Analytics export (xlsx) as input.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "apify-content-analytics",
+      "path": "collections/social-media-youtube/apify-content-analytics/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Track engagement metrics, measure campaign ROI, and analyze content performance across Instagram, Facebook, YouTube, and TikTok.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "apify-influencer-discovery",
+      "path": "collections/social-media-youtube/apify-influencer-discovery/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Find and evaluate influencers for brand partnerships, assess public authenticity signals, and track collaboration performance across Instagram, Facebook, YouTube, and TikTok.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "apify-tiktok-scraper",
+      "path": "collections/social-media-youtube/apify-tiktok-scraper/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Research TikTok videos, profiles, hashtags, comments and followers with engagement statistics through the harshmaur/tiktok-scraper Apify Actor. No TikTok login.",
+      "license": "MIT",
+      "metadata_author": "harshmaur"
+    },
+    {
+      "name": "apify-youtube-transcript-scraper",
+      "path": "collections/social-media-youtube/apify-youtube-transcript-scraper/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Get YouTube captions, timestamped quotations, SRT/VTT and translated transcripts for videos, channels and playlists through the harshmaur/youtube-transcript-scraper Apify Actor.",
+      "license": "MIT",
+      "metadata_author": "harshmaur"
+    },
+    {
+      "name": "blog-title-generator",
+      "path": "collections/social-media-youtube/blog-title-generator/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Blog Title Generator. Use when working with topic or page summary.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "blog-writing-specialist",
+      "path": "collections/social-media-youtube/blog-writing-specialist/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Comprehensive blog writing skill that handles technical blog posts, personal voice writing, brain dump transformation, and category-aware AEO-optimized content. Use when: (1) writing, editing, or proofreading a blog article or post, (2) transforming unstructured brain dumps into polished posts, (3) writing in specific personal voices (Jarad, Nick Nisi), (4) creating category-aware technology/company/product posts, (5) building tutorials, deep dives, postmortems, benchmarks, or architecture posts, (6) writing engineering blogs, dev blogs, programming blogs, coding tutorials, or documentation posts. Triggers: blog post, blog writing, technical blog, dev tutorial, brain dump, article, content writing, developer article, engineering blog, programming blog, coding tutorial, documentation post, technical writing, blog editing, proofreading, developer content",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "brand-messaging-and-positioning",
+      "path": "collections/social-media-youtube/brand-messaging-and-positioning/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Comprehensive brand messaging, positioning, and value proposition development using proven frameworks including Peep Laja Message Layers, Osterwalder Value Proposition Canvas, Geoffrey Moore positioning, April Dunford's Five Components, StoryBrand SB7, Andy Raskin Strategic Narrative, and Messaging House. Use when developing brand identity, brand messaging architecture, positioning statements, value propositions, messaging hierarchies, brand pillars, taglines, one-liners, elevator pitches, brand guidelines, visual identity systems, or creating Positioning & Messaging Packs. Triggers include: messaging framework, brand positioning, value prop, messaging architecture, brand pillars, brand identity, StoryBrand, positioning statement, brand guidelines, design system, messaging house, corporate identity, brand voice, visual standards.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "community-building",
+      "path": "collections/social-media-youtube/community-building/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "When the user wants to build, grow, or improve a developer community on Discord, Slack, or forums.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "competitor-analysis",
+      "path": "collections/social-media-youtube/competitor-analysis/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Comprehensive competitor analysis, competitive intelligence, and comparison page creation. Use when analyzing competitive landscape, creating competitor comparison pages (alternative pages, vs pages, competitor A vs B pages), performing market research, building SWOT analysis, creating feature matrices, pricing comparisons, competitor teardowns, battle cards, or positioning maps. Covers research workflows, SEO-optimized comparison content, data-grounded reports with citations, 7-layer analysis framework, review mining, and sales enablement. Triggers include competitor analysis, competitive analysis, competitor teardown, vs page, alternative page, competitor comparison, market research, competitive intelligence, SWOT analysis, battle card, competitor pricing, market landscape, feature comparison, positioning map.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-creation-and-marketing",
+      "path": "collections/social-media-youtube/content-creation-and-marketing/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Cross-channel content production from an approved idea, brief, notes, transcript, or existing asset. Use when the user wants a ready-to-review draft or a small set of adaptations saved into the bootstrap content workspace. For content strategy use content-strategy-and-planning; for specialist LinkedIn, blog, email automation, SEO, landing page, or campaign work use the dedicated skill.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-creator",
+      "path": "collections/social-media-youtube/content-creator/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Draft and review audience-specific content using supplied brand examples, local text diagnostics, and adaptable channel templates.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-gap-finder",
+      "path": "collections/social-media-youtube/content-gap-finder/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Content Gap Finder. Use when working with existing content inventory and audience goal.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "content-marketer",
+      "path": "collections/social-media-youtube/content-marketer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-matrix",
+      "path": "collections/social-media-youtube/content-matrix/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate 24 to 40 LinkedIn post ideas in a single table by pairing the user's content pillars with 8 proven content formats. Based on the Justin Welsh content matrix. Use this skill whenever the user says \"give me post ideas\", \"content matrix\", \"what should I post about\", \"generate post ideas\", \"content ideation\", or \"map out my content for the month\". Pulls from about-me.md and voice.md if they exist, otherwise asks for pillars and context.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-strategy",
+      "path": "collections/social-media-youtube/content-strategy/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-strategy-and-planning",
+      "path": "collections/social-media-youtube/content-strategy-and-planning/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Unified skill for content strategy and marketing content strategy: content pillars, editorial calendars, keyword research by buyer stage, positioning, messaging hierarchy, trust-building, GEO/AI search optimization, and ROI measurement. Also handles content briefs, SEO briefs, content outlines for writers, on-page SEO optimization, meta descriptions, title tags, keyword density, content research, source discovery, expert sourcing, and information gathering. Use when planning content strategy, creating content briefs for writers, optimizing existing content for SEO, researching topics and sources, or managing editorial operations. Triggers: content strategy, marketing content strategy, content marketing strategy, content planning, editorial calendar, content pillars, messaging hierarchy, content brief, SEO brief, content outline, keyword research, buyer journey content, GEO optimization, AI search optimization, content ROI, content operations, content roadmap, brand messaging, positioning",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "copywriting",
+      "path": "collections/social-media-youtube/copywriting/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write rigorous, conversion-focused marketing copy for landing pages and emails. Enforces brief confirmation and strict no-fabrication rules.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "copywriting-core",
+      "path": "collections/social-media-youtube/copywriting-core/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Expert copywriter and copy editor combining David Ogilvy's clarity, Ann Handley's warmth, and modern conversion science. Full copy lifecycle: writing new copy and editing existing copy. Grounded in positioning-first thinking, voice-of-customer research, and the Seven Sweeps editing framework. Use when writing or editing any copy: copywriting, write copy, headlines, taglines, email copy, ad copy, landing page copy, product copy, UX writing, CTAs, value proposition, microcopy, sales copy, conversion copy, SaaS copy, startup copy, positioning, messaging, voice-of-customer, landing page, copy editing, edit copy, review copy, proofread, polish copy, tighten copy, copy sweep, copy feedback, sharpen messaging.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "define-my-content-pillars",
+      "path": "collections/social-media-youtube/define-my-content-pillars/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Find the three to five subjects someone can post about repeatedly, from what they have published and know first-hand. Use when someone asks what to post about or has run out of ideas.",
+      "license": "MIT",
+      "metadata_author": "prateeks367"
+    },
+    {
+      "name": "discord-automation",
+      "path": "collections/social-media-youtube/discord-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "gemini-carousel",
+      "path": "collections/social-media-youtube/gemini-carousel/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate a branded slide-by-slide LinkedIn carousel using Gemini. Takes source content, builds a design brief, waits for approval, then outputs per-slide image generation prompts. 1080x1350 vertical format. Use this skill whenever the user says \"carousel\", \"build a carousel\", \"turn this into a carousel\", \"gemini carousel\", or wants multi-slide LinkedIn content. Always includes an approval gate between brief and image generation.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "gemini-infographic",
+      "path": "collections/social-media-youtube/gemini-infographic/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate a hand-drawn whiteboard infographic prompt. Takes source content (a post, newsletter, blog, research note) and returns a complete Gemini image generation prompt with a structured brief. Use this skill whenever the user says \"whiteboard infographic\", \"gemini infographic\", \"hand-drawn graphic\", \"turn this into a whiteboard\", or wants an AI-generated infographic for a post.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "geo-content",
+      "path": "collections/social-media-youtube/geo-content/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Content quality and E-E-A-T assessment for AI citability — evaluate experience, expertise, authoritativeness, trustworthiness, and content structure",
+      "license": "MIT",
+      "metadata_author": "geo-seo-claude"
+    },
+    {
+      "name": "graphic-designer",
+      "path": "collections/social-media-youtube/graphic-designer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Create LinkedIn post graphics. Decides between an HTML/CSS structured graphic or an AI-generated infographic based on the post content. Use this skill whenever the user says \"design a graphic\", \"create a visual\", \"make an image\", \"graphic for my post\", \"LinkedIn image\", or wants any visual content to pair with a LinkedIn post. Also trigger when the user finishes writing a post and wants a matching graphic.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "hook-generator",
+      "path": "collections/social-media-youtube/hook-generator/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate 6 clickbait-style LinkedIn hook variations for any topic. Two-line hooks built on the formula: a 40-char opening line, a 40-char bold contrast line. Uses supplied numbers and genuine first-person experience when available. Use this skill whenever the user says \"write me hooks\", \"hook ideas\", \"generate hooks\", \"I need a hook for a post about...\", or pastes a topic and asks for openers. Fast output, no preamble.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "humanizer",
+      "path": "collections/social-media-youtube/humanizer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Humanize AI-sounding writing and remove common AI-generated writing tells while preserving meaning, audience, and brand voice. Use when editing text to sound more natural, less generic, less promotional, less formulaic, or closer to the user's own writing. Triggers: humanize this, make this less AI, make this sound human, remove AI writing patterns, rewrite in my voice, make this more natural, de-AI this, make this less ChatGPT, fix robotic writing, improve authenticity, reduce generic AI tone.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ingest-youtube",
+      "path": "collections/social-media-youtube/ingest-youtube/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "instagram-automation",
+      "path": "collections/social-media-youtube/instagram-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate Instagram tasks via Rube MCP (Composio): create posts, carousels, manage media, get insights, and publishing limits. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "keyword-research-and-clustering",
+      "path": "collections/social-media-youtube/keyword-research-and-clustering/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Research, expand, and cluster keywords for content strategy. Use when planning content topics, building keyword lists, expanding seed keywords, clustering by topic and intent, or mapping keywords to funnel stages. Triggers on \"keyword research,\" \"keyword expansion,\" \"keyword clustering,\" \"content topics,\" \"what to write about,\" \"topic ideation,\" \"content planning,\" \"6 circles method,\" \"seed keywords,\" \"keyword difficulty,\" \"search volume,\" \"intent mapping,\" \"pillar content strategy,\" or \"content calendar planning.\" For SEO optimization and auditing, see seo-and-aeo-strategy.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "linkedin",
+      "path": "collections/social-media-youtube/linkedin/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "LinkedIn profile optimization and content creation. Use when auditing or optimizing a LinkedIn profile, writing LinkedIn posts, developing thought leadership content, building personal brand on LinkedIn, analyzing SSI score, improving profile visibility, or crafting hooks and engagement strategy for LinkedIn.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "linkedin-automation",
+      "path": "collections/social-media-youtube/linkedin-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate LinkedIn tasks via Rube MCP (Composio): create posts, manage profile, company info, comments, and image uploads. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "linkedin-content-generator",
+      "path": "collections/social-media-youtube/linkedin-content-generator/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a feedback-based personal memory system.",
+      "license": "MIT",
+      "metadata_author": "sarveshkishortalele"
+    },
+    {
+      "name": "linkedin-post-writer",
+      "path": "collections/social-media-youtube/linkedin-post-writer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Draft LinkedIn posts from 16 illustrative hook formulas mapped to engagement goals (comments, reposts, likes, saves), with optional formatting conventions and an AI-tell scrub pass before publishing.",
+      "license": "MIT",
+      "metadata_author": "sergebulaev"
+    },
+    {
+      "name": "linkedin-profile-optimizer",
+      "path": "collections/social-media-youtube/linkedin-profile-optimizer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "High-intent expert for LinkedIn profile checks and SEO optimization. Silently audits and rewrites profiles, delivering only the finished, ready-to-paste result.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "newsletter-management",
+      "path": "collections/social-media-youtube/newsletter-management/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Create, curate, and grow email newsletters across all formats and strategies. Use when working on newsletters, email newsletters, weekly digests, link roundups, curated content, audience building, subscriber engagement, or content distribution. Covers 6 newsletter formats (curated/link roundup, story-driven, educational, interview, data-driven, personal update), editorial issue structure, content sourcing workflows, commentary writing, sending cadence, subject line optimization, subscriber growth, and engagement metrics. Trigger keywords: newsletter curation, curated newsletter, newsletter writing, newsletter format, newsletter strategy, newsletter template, content curation, subscriber growth.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "newsletter-voice",
+      "path": "collections/social-media-youtube/newsletter-voice/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Build newsletter writing instructions inside a Codex or Claude project. Runs after voice-builder. Produces newsletter-voice.md, a single file the assistant references when drafting newsletters in the user's voice. Works with or without existing newsletter samples: if the user has past issues, the skill analyses them; if not, the skill offers 6 archetypes tuned to the user's voice. Trigger whenever the user says \"build my newsletter voice\", \"learn my newsletter style\", \"set up my newsletter system\", \"train on my newsletters\", \"newsletter onboarding\", or drops newsletter samples into chat asking for an analysis. Requires voice-builder to have run first: the skill needs voice.md and about-me.md in the project to work.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "niche-research",
+      "path": "collections/social-media-youtube/niche-research/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Surface the 20 most relevant stories in a niche from the last 7 days using available live research tools. Verified dates, real links, shareable angles. Use available browser or web search tools to inspect dated source material. Use this skill whenever the user says \"research my niche\", \"what's trending\", \"find stories\", \"this week's news\", \"content research\", or drops a niche and asks what's happening in it. Requires live source access for current research.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ph-content-recycling",
+      "path": "collections/social-media-youtube/ph-content-recycling/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Repurpose Product Hunt launch content across channels. Use this skill to maximize the value of your launch assets by adapting them for blog posts, documentation, social media, and more.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "pinned-comment",
+      "path": "collections/social-media-youtube/pinned-comment/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write deadpan LinkedIn pinned comments AND matching image generation prompts in the user’s voice. Use when the user asks for a pinned comment, pin comment, or first comment for a LinkedIn post. ALWAYS produce the image prompt FIRST, then caption it with the 4-line comment. Output both together unless told otherwise.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "post-formatter",
+      "path": "collections/social-media-youtube/post-formatter/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Turn a topic into a ready-to-publish LinkedIn post using PAS, AIDA, BAB, STAR, or SLAY frameworks. Up to 20 nonblank lines, mobile-formatted with blank lines between sentences. Use this skill whenever the user says \"format this as a post\", \"turn this into a LinkedIn post\", \"write it as PAS\" or any named framework, or wants a properly structured post from a topic. Different from post-writer: post-formatter applies a strict framework. post-writer drafts in the user's voice without framework constraints.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "post-scorer",
+      "path": "collections/social-media-youtube/post-scorer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Score a LinkedIn post using real performance data. Pulls the user's own post history via Apify (or uses cached data) to identify what actually performs, then scores the draft against those patterns. Use this skill whenever the user says \"score my post\", \"review my post\", \"rate this post\", \"give me feedback\", \"how good is this post\", or pastes a LinkedIn post and asks for critique. Separates historical comparisons from an explicitly labelled editorial-only fallback. Designed for live scoring at events and everyday post review.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "post-writer",
+      "path": "collections/social-media-youtube/post-writer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write LinkedIn posts that match the user's voice system (about-me.md and voice.md). Use this skill whenever the user says \"write a post\", \"draft a post\", \"LinkedIn post\", \"post about [topic]\", \"content idea\", or wants help writing any LinkedIn content. Also trigger when the user pastes a context dump (notes, transcripts, bullet points) and wants it turned into a post. Always references the voice files in the project before writing. Always outputs the final post in a code block.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "pr-specialist",
+      "path": "collections/social-media-youtube/pr-specialist/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Expert PR and media relations guidance for earned media, press coverage, and reputation building. Use when writing press releases, crafting media pitches, developing journalist relationships, planning embargo strategies, managing crisis communication, placing thought leadership, building analyst relations, submitting award applications, or measuring PR coverage. Use for media outreach, press kits, speaking opportunities, and earned media strategy.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "profile-optimizer",
+      "path": "collections/social-media-youtube/profile-optimizer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Rebuild a LinkedIn profile for maximum conversions. Produces new headline options, about section, experience section, featured section strategy, and 4 image generation prompts (banner, profile picture, 2 featured tiles). Use this skill whenever the user says \"optimize my profile\", \"fix my LinkedIn\", \"rewrite my headline\", \"profile review\", \"LinkedIn audit\", \"rebuild my profile\", or wants help with any part of their LinkedIn profile. Also trigger when the user uploads a LinkedIn profile PDF or screenshot for review.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "quote-post",
+      "path": "collections/social-media-youtube/quote-post/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Two-step workflow for creating quote posts on LinkedIn. The assistant drafts original short quotes to accompany a caption, then produces a Gemini prompt that recreates a reference image with the chosen quote baked in. Use this skill whenever the user says \"quote post\", \"quote graphic\", \"motivational post\", \"build me a quote\", or wants a low-effort high-engagement LinkedIn graphic. Optimised for LinkedIn's employee and early-career audience, which skews toward motivational content.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "reddit-automation",
+      "path": "collections/social-media-youtube/reddit-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate Reddit tasks via Rube MCP (Composio): search subreddits, create posts, manage comments, and browse top content. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "reels-scripting",
+      "path": "collections/social-media-youtube/reels-scripting/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Turn a reference Instagram Reel into a script for your own Reel, tuned to your voice and repurposed from your newsletter content. Takes a Reel URL or Notion reference link, uses Apify to scrape the video, sends it to Gemini 2.5 Flash for full transcript + hook + structure analysis, then writes a new script applying the same patterns to your newsletter topic. Use this skill whenever the user says \"script a reel\", \"reels scripting\", \"turn this into a reel\", pastes an Instagram Reel URL, or references their Notion outlier reels database. The URL-to-video-analysis route needs APIFY_API_TOKEN and GOOGLE_AI_API_KEY; supplied input can skip the corresponding stages.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "referral-program",
+      "path": "collections/social-media-youtube/referral-program/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' or 'partner program.' This skill covers program design, incentive structure, and growth optimization.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "remotion-captions",
+      "path": "collections/social-media-youtube/remotion-captions/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Transcribing, displaying and animating captions",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "seek-and-analyze-video",
+      "path": "collections/social-media-youtube/seek-and-analyze-video/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Seek and analyze video content using Memories.ai Large Visual Memory Model for persistent video intelligence",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "kennyzheng-builds"
+    },
+    {
+      "name": "seo-content-planner",
+      "path": "collections/social-media-youtube/seo-content-planner/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Creates comprehensive content outlines and topic clusters for SEO. Plans content calendars and identifies topic gaps. Use PROACTIVELY for content strategy and planning.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "seo-content-writer",
+      "path": "collections/social-media-youtube/seo-content-writer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Writes SEO-optimized content based on provided keywords and topic briefs. Creates engaging, comprehensive content following best practices. Use PROACTIVELY for content creation tasks.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-content",
+      "path": "collections/social-media-youtube/social-content/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Help plan and draft social content; publishing capabilities depend on the actual connected account and tool permissions. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-media-management",
+      "path": "collections/social-media-youtube/social-media-management/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Comprehensive social media management for all platforms (LinkedIn, Twitter/X, Instagram, TikTok, Facebook, Pinterest, YouTube). Covers content creation, content pillars, hook formulas, repurposing across platforms, platform-optimized graphics/visuals, content calendar, engagement strategy, analytics/ROI analysis, AI-powered content generation, and scheduling best practices. Use for: social media content, LinkedIn post, Twitter thread, Instagram reels, TikTok, content calendar, social scheduling, engagement strategy, social analytics, social media ROI, content repurposing, social graphics, thumbnails, captions, hashtags, viral content, content creator, social media manager, AI content generation, social media audit.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-media-setup",
+      "path": "collections/social-media-youtube/social-media-setup/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Social media register: platforms and handles, post captions and hashtags, publishing cadence, approval status and profile checklist. Use for social account setup.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "social-metadata-hardening",
+      "path": "collections/social-media-youtube/social-metadata-hardening/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "Whoisabhishekadhikari"
+    },
+    {
+      "name": "social-orchestrator",
+      "path": "collections/social-media-youtube/social-orchestrator/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Orquestrador unificado de canais sociais — coordena Instagram, Telegram e WhatsApp em um unico fluxo de trabalho. Publicacao cross-channel, metricas unificadas, reutilizacao de conteudo por formato, agendamento sincronizado e gestao centralizada de campanhas em todos os canais simultaneamente.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "renat"
+    },
+    {
+      "name": "social-post-writer-seo",
+      "path": "collections/social-media-youtube/social-post-writer-seo/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Social Media Strategist and Content Writer. Creates clear, engaging social media posts for Instagram, LinkedIn, and Facebook.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "WHOISABHISHEKADHIKARI"
+    },
+    {
+      "name": "telegram-automation",
+      "path": "collections/social-media-youtube/telegram-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate Telegram tasks via Rube MCP (Composio): send messages, manage chats, share photos/documents, and handle bot commands. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "tiktok-automation",
+      "path": "collections/social-media-youtube/tiktok-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate TikTok tasks via Rube MCP (Composio): upload/publish videos, post photos, manage content, and view user profiles/stats. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "twitter-automation",
+      "path": "collections/social-media-youtube/twitter-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users, bookmarks, lists, media. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "utm-builder",
+      "path": "collections/social-media-youtube/utm-builder/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate UTM-tagged URLs for campaign tracking. Create consistent, organized tracking links for Google Analytics, HubSpot, and other analytics platforms. Supports bulk generation, naming conventions, and campaign documentation. Use when creating tracking links, campaign URLs, or organizing marketing attribution.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-content-extractor",
+      "path": "collections/social-media-youtube/video-content-extractor/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Extract key frames from MP4 videos at configurable intervals, run Tesseract OCR, and generate structured Markdown reports with video metadata and timestamped text transcripts.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": 274326424
+    },
+    {
+      "name": "viral-generator-builder",
+      "path": "collections/social-media-youtube/viral-generator-builder/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools people can't resist sharing with friends.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "voice-builder",
+      "path": "collections/social-media-youtube/voice-builder/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Build a personalised voice profile inside a Codex or Claude project from a short interview plus 3 to 5 sample pieces of writing. Works for any content format: LinkedIn posts, newsletters, essays, emails, blog posts, tweets, or any other published writing. Use this skill at the start of any project where the user wants the assistant to learn who they are and how they write before drafting new content. Trigger whenever the user says \"build my voice\", \"learn my voice\", \"set up my content system\", \"onboard me\", \"train on my writing\", \"train on my posts\", \"I want Claude to sound like me\", or drops a batch of writing samples into chat at the start of a project. Also trigger for first-time users who need a voice foundation before writing anything. Always produces two files (about-me.md and voice.md) saved into the project root.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "webinar-content-and-events",
+      "path": "collections/social-media-youtube/webinar-content-and-events/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "This skill covers two related use cases: (1) Creating high-converting webinar registration and event landing pages, and (2) Repurposing webinar recordings into multiple content assets including blog posts, social media, email sequences, and sales materials. Use when users need to build webinar pages or convert webinar content into multi-channel marketing materials.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "whatsapp-automation",
+      "path": "collections/social-media-youtube/whatsapp-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "x-impact-checker",
+      "path": "collections/social-media-youtube/x-impact-checker/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Analyze and optimize X (Twitter) posts for viral potential and reach using heuristics inspired by X's published open-source recommendation architecture. Use when user wants to: (1) Check if a post will go viral, (2) Score a tweet for engagement potential, (3) Optimize or rewrite a tweet for algorithmic reach, (4) Understand why a tweet underperformed, (5) Build audience in a specific niche. Triggers: \"Check if this will go viral\", \"Make this post buzz\", \"Will this tweet perform well?\", \"Optimize my tweet\", \"How can I make this viral?\", \"rewrite this tweet\", \"improve my tweet engagement\", \"twitter algorithm\", \"tweet reach\", \"debug underperforming tweet\", \"バズるかチェックして\", \"Xでバズる投稿にして\", \"伸びるかチェックして\", \"この投稿を伸ばして\", \"投稿を改善して\", \"ツイートを最適化して\"",
+      "license": "AGPL-3.0 (referencing Twitter's open-source algorithm)",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube",
+      "path": "collections/social-media-youtube/youtube/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "The ultimate YouTube creator skill. Covers channel audits, video SEO, retention-engineered scripts, hook writing, thumbnail briefs, content strategy, content calendars, Shorts optimisation, analytics interpretation, monetisation planning, competitor research, cross-platform repurposing, upload metadata packages, and data-driven video idea generation. Triggers on: \"youtube\", \"channel\", \"video\", \"views\", \"subscribers\", \"watch time\", \"shorts\", \"thumbnail\", \"CTR\", \"retention\", \"monetize\", \"script\", \"hook\", \"upload\", \"youtube audit\", \"video ideas\", \"content calendar\", \"competitor analysis\", \"repurpose video\", \"youtube seo\", \"youtube strategy\", \"youtube analytics\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-automation",
+      "path": "collections/social-media-youtube/youtube-automation/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments. Always search tools first for current schemas.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-content",
+      "path": "collections/social-media-youtube/youtube-content/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Plan new YouTube videos with optimized titles, thumbnails, and hooks. Use when planning a video, writing or reviewing opening hooks, generating title and thumbnail concepts, or creating a production-ready video plan backed by research.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-full",
+      "path": "collections/social-media-youtube/youtube-full/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Fetch YouTube transcripts, search videos, browse channels, and extract playlists via TranscriptAPI — no yt-dlp, no Google API key, works from any cloud server.",
+      "license": "MIT",
+      "metadata_author": "ZeroPointRepo"
+    },
+    {
+      "name": "youtube-research",
+      "path": "collections/social-media-youtube/youtube-research/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Research YouTube topics, analyze competitor videos, deconstruct viral content, and query the YouTube Data API. Use when researching a video topic before planning, analyzing video transcripts for viral patterns, searching competitor channels, or fetching video and channel stats via the YouTube Data API v3.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-seo-optimizer",
+      "path": "collections/social-media-youtube/youtube-seo-optimizer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate complete YouTube & podcast SEO packages with live-researched keywords — titles, descriptions, tags, hashtags, chapters, and audit fixes. Use for new or underperforming content.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": "whoisabhishekadhikari"
+    },
+    {
+      "name": "youtube-summarizer",
+      "path": "collections/social-media-youtube/youtube-summarizer/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-thumbnail",
+      "path": "collections/social-media-youtube/youtube-thumbnail/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Generate a branded YouTube thumbnail from a video title. Uses a reference photo of the creator, high-CTR thumbnail principles, and brand colours to produce a ready-to-generate image prompt for Gemini. Use this skill whenever the user says \"thumbnail\", \"youtube thumbnail\", \"build me a thumbnail\", or wants a video cover image before writing the script. The thumbnail-first workflow mirrors the graphic-first approach for LinkedIn: sells the video before anyone hears a word of the script.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-audit",
+      "path": "collections/social-media-youtube/yt-audit/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Audit a YouTube channel end to end - packaging, consistency, the first fifteen seconds, and what to fix first. Use for \"audit my channel\", \"why isn't my channel growing\", \"review my videos\", or a pasted channel URL.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-chapters",
+      "path": "collections/social-media-youtube/yt-chapters/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write YouTube chapters from a transcript, validated against YouTube's own rules so they actually render. Use for \"add chapters\", \"timestamps\", \"break this video into sections\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-comment",
+      "path": "collections/social-media-youtube/yt-comment/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Draft replies to YouTube comments in the creator's voice, triaged by which ones are worth answering. Use for \"reply to my comments\", \"handle the comment section\", \"someone asked X\", or a pasted comment thread.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-edit",
+      "path": "collections/social-media-youtube/yt-edit/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Turn a raw recording's transcript into an edit decision list - dead air, filler cues and retakes, with timecodes. Use for \"edit this\", \"cut the dead space\", \"tighten this video\", \"I rambled\", or any request to shorten footage from a transcript.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-package",
+      "path": "collections/social-media-youtube/yt-package/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write and lint the title and thumbnail for a YouTube video as one pairing, checking truncation, duplication and vagueness before publish. Use for \"title ideas\", \"what should I call this\", \"thumbnail text\", \"my CTR is bad\", packaging, or any request to rename or repackage an existing video.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-plan",
+      "path": "collections/social-media-youtube/yt-plan/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Plan a week or a month of YouTube uploads - what to post, when, and in what order, sized to the creator's actual capacity. Use for \"plan my week\", \"content calendar\", \"what should I post\", \"I have no idea what to make next\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-retention",
+      "path": "collections/social-media-youtube/yt-retention/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Read a YouTube Studio audience-retention export and find where viewers actually leave, then say what to change. Use for \"why do people stop watching\", \"my retention is bad\", a pasted retention chart or CSV, or \"fix my pacing\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-script",
+      "path": "collections/social-media-youtube/yt-script/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write a YouTube video script from a raw idea - hook options off 21 formulas, scored, then the full spoken script with the retention beats marked. Use whenever the user wants a video script, a hook, an opening line, \"what should I say\", \"write my next video\", or is about to record and does not have the first fifteen seconds yet.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-seo",
+      "path": "collections/social-media-youtube/yt-seo/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Write the description, tags and search-facing text for a YouTube video, aimed at the query a real person types. Use for \"write my description\", \"tags\", \"SEO\", \"help this video get found\", \"nobody is finding this\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-shorts",
+      "path": "collections/social-media-youtube/yt-shorts/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Find the Shorts hiding inside a long video and write them, using the transcript to pick self-contained moments. Use for \"cut this into shorts\", \"clip this\", \"repurpose this video\", \"what should I clip\".",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "yt-viral",
+      "path": "collections/social-media-youtube/yt-viral/SKILL.md",
+      "collection": "social-media-youtube",
+      "description": "Find what is actually working in the user's niche on YouTube and rank it by how far each video beat its own channel, then name the formula. Use for \"what's working right now\", \"find viral videos in my niche\", \"why did this blow up\", competitor research, or a swipe file.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
       "name": "ai-video-and-creative-production",
-      "path": "skills/ai-video-and-creative-production/SKILL.md"
+      "path": "collections/social-media-youtube-starter/skills/ai-video-and-creative-production/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Plan AI-assisted video, image, voiceover, thumbnail and editing workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
-      "name": "social-profile-and-brand-voice",
-      "path": "skills/social-profile-and-brand-voice/SKILL.md"
+      "name": "content-calendar-and-repurposing",
+      "path": "collections/social-media-youtube-starter/skills/content-calendar-and-repurposing/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Editorial calendars and platform-native adaptation of source content.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     },
     {
       "name": "creator-monetization-and-community",
-      "path": "skills/creator-monetization-and-community/SKILL.md"
+      "path": "collections/social-media-youtube-starter/skills/creator-monetization-and-community/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Ethical creator monetization, sponsorships, offers and community workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "hooks-scripts-and-captions",
+      "path": "collections/social-media-youtube-starter/skills/hooks-scripts-and-captions/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Platform-native hooks, scripts, captions, titles and calls to action.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "instagram-growth-and-reels",
+      "path": "collections/social-media-youtube-starter/skills/instagram-growth-and-reels/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Instagram growth across Reels, carousels, Stories, profile conversion and Insights.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-analytics-and-optimization",
+      "path": "collections/social-media-youtube-starter/skills/social-analytics-and-optimization/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Analyze social metrics, diagnose bottlenecks and recommend experiments.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-media-strategy",
+      "path": "collections/social-media-youtube-starter/skills/social-media-strategy/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Cross-platform strategy, audience positioning, content pillars, cadence and KPIs.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-profile-and-brand-voice",
+      "path": "collections/social-media-youtube-starter/skills/social-profile-and-brand-voice/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Creator positioning, profile optimization, brand voice and consistent messaging.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "tiktok-growth-and-scripts",
+      "path": "collections/social-media-youtube-starter/skills/tiktok-growth-and-scripts/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "TikTok growth strategy and original scripts based on audience intent, search, retention and comments.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "trend-and-competitor-research",
+      "path": "collections/social-media-youtube-starter/skills/trend-and-competitor-research/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Verifiable research into trends, creators, competitors and content gaps.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-channel-growth",
+      "path": "collections/social-media-youtube-starter/skills/youtube-channel-growth/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "YouTube channel audits and growth plans using positioning, packaging, retention and analytics.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-long-form",
+      "path": "collections/social-media-youtube-starter/skills/youtube-long-form/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Long-form YouTube concepts, titles, thumbnail briefs, outlines and scripts.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-shorts",
+      "path": "collections/social-media-youtube-starter/skills/youtube-shorts/SKILL.md",
+      "collection": "social-media-youtube-starter",
+      "description": "Shoot-ready YouTube Shorts with hooks, visual beats, captions and titles.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ffmpeg-skill",
+      "path": "skills/01-ffmpeg-skill/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Edit video and audio with local FFmpeg: cut, join, reframe, speed, captions, overlays, silence removal, sync, loudness, HDR to SDR, platform exports and checks. Use whenever the user mentions a video or audio file (mp4, mov, wav, m4a), footage, captions, a reel or short, YouTube/TikTok delivery, LUFS or ffmpeg, even without saying \"edit\". Needs FFmpeg 6.1+ and Python 3.10+; stdlib only, no cloud.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-editing-skill",
+      "path": "skills/02-typed-video-editing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Deterministic video editing from a typed edit request (trim, cut, concat with transitions, speed change, fit / fill / resize, still-image overlay) with an exact source-to-timeline mapping and per-operation provenance. Executes through ffmpeg-skill; never takes commands, argv, filter strings or executables. Use when an agent has already decided what to edit and needs the edit performed, verified and traced. Not for deciding what to cut, transcribing, captioning, colour grading or audio mastering.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-editing",
+      "path": "skills/03-video-editing-workbench/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Edit arbitrary supplied video, audio, images, screen recordings, and graphics into a polished deliverable. Use for cutting and restructuring footage, multi-track compositing, picture-in-picture, transitions, captions, sound work, color and framing changes, screen demos, presenter edits, social clips, and motion graphics made with FFmpeg, HTML, React, SVG, or Remotion. Includes source inspection, timeline design, reusable media tooling, transparent overlay generation, fast review artifacts, deterministic rendering, and technical validation.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-to-shorts-skill",
+      "path": "skills/04-video-to-shorts/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Video to shorts skill: turn a long video (podcast, interview, talk, webinar, stream, YouTube video) into vertical short clips for TikTok, Instagram Reels and YouTube Shorts, then post them to one or many accounts with WoopSocial. Transcribes with word timestamps (free local faster-whisper, your own Groq or OpenAI key, or an existing SRT/VTT), scores every candidate moment with a clip rubric (hook, standalone, payoff), cuts 1080x1920 clips with ffmpeg, removes pauses, keeps the speaker in frame, burns word-by-word captions and a hook line, normalises the audio, and writes titles and captions. Works on Mac, Windows and Linux with ffmpeg and Pillow; no paid API required. Use when someone says \"video to shorts,\" \"clip my podcast,\" \"turn this video into shorts,\" \"make reels from my video,\" \"podcast clips,\" \"long video to short clips,\" or \"repurpose my YouTube video.\" Clips only what the user owns or has permission to use, confirms before anything posts. Standalone: needs no other skills.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "video-editing-skill",
+      "path": "skills/05-talking-head-editing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Video editing skill: edit a talking-head video (YouTube video, course lesson, product demo, podcast on camera, vlog) the way an editor would. Transcribes with word timestamps (free local faster-whisper, your own Groq or OpenAI key, or an existing SRT/VTT), removes silences, \"um\"s and \"uh\"s, stutters and retakes (keeps the last take), adds jump-cut punch-ins, cleans and levels the audio, writes an SRT caption file and YouTube chapters, optionally burns captions or makes a vertical version, shows a cut list to approve before rendering, then posts to YouTube and other platforms with WoopSocial after you say yes. Works on Mac, Windows and Linux with ffmpeg and Pillow; no paid API required. Use when someone says \"edit my video,\" \"remove silences,\" \"cut the ums,\" \"remove filler words,\" \"jump cut my video,\" \"clean up this recording,\" \"edit this talking head video,\" or \"video editing with Claude Code.\" Never cuts what the user marked to keep, confirms before anything posts. Standalone: needs no other skills.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "gemini-omni-flash-api",
+      "path": "skills/06-gemini-video-generation/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Use this skill for generative video editing, text-to-video, image- and video-referenced video generation, first-frame-to-video, first-and-last-frame transitions, and video extensions using Gemini Omni 1.2 Flash (gemini-omni-1.2-flash) via the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg, stripping audio for full sound regeneration, and handling turn-by-turn video editing and parallel execution.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-skill",
+      "path": "skills/07-youtube-publishing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "YouTube skill: get a finished video found on YouTube, then upload it. Transcribes it (free local faster-whisper, your own Groq or OpenAI key, or an existing SRT/VTT), finds the phrases people actually type into YouTube search (free autocomplete, optional free YouTube Data API key), writes 10 titles, a description whose first lines work in search, chapters, tags and hashtags, checks every field against YouTube's limits, renders thumbnail options from the video's own frames and previews them at feed size, writes clean captions, then uploads to YouTube with WoopSocial after you say yes, plus a YouTube Studio checklist. Works on Mac, Windows and Linux with ffmpeg and Pillow; no paid API required. Use when someone says \"upload to youtube,\" \"youtube seo,\" \"youtube title,\" \"youtube description,\" \"youtube tags,\" \"youtube chapters,\" \"youtube thumbnail,\" \"publish my video,\" or \"youtube with Claude Code.\" Never promises what the video doesn't deliver, confirms before anything posts. Standalone: needs no other skills.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-long-form",
+      "path": "skills/08-youtube-long-form/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "The growth engine for YouTube long-form video in 2026. Use when someone asks to \"grow my YouTube channel,\" \"get more views on my videos,\" \"plan/script a YouTube video,\" \"improve my CTR or retention,\" \"why did my video flop,\" or wants a long-form strategy. Produces packaging concepts + scripts; the human films/edits/designs the thumbnail; publishing routes through scheduling-and-queue -> WoopSocial; analytics and session features live in YouTube Studio. The opposite engine from, and sibling to, youtube-shorts.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "analyze-video-editing",
+      "path": "skills/09-analyze-video-editing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Reverse-engineer an existing video into a timecoded account of its shots, cuts, fades, camera motion, dialogue, subtitles, titles, music, sound transitions, pacing, and editorial structure. Use when the user shares a reference video or local media and asks how it works, why it feels effective, what can be learned from it, how B-roll and interviews are interwoven, or how to translate its grammar into an original edit. Produces machine evidence, visual review artifacts, and an editorial breakdown without confusing estimates with observed facts.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "find-broll",
+      "path": "skills/10-find-broll/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Plan, source, vet, and precisely place B-roll for spoken video. Use when the user asks to find B-roll, source cutaways, add receipts or visual evidence over a talking head, illustrate a transcript, create an annotated B-roll plan, or time cutaways to exact spoken words. Handles official footage, product interfaces, public-page receipts, archival material, concept graphics, and user-curated cultural clips while preserving source provenance and final editorial approval.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "after-effects",
+      "path": "skills/11-after-effects/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "This skill should be used when the user asks anything about Adobe After Effects — to \"write an After Effects expression\", \"make a wiggle / loopOut / inertial bounce\", \"rig a control with a slider / null\", \"build a MOGRT / Essential Graphics template\", \"export AE to Lottie or Media Encoder\"; OR to \"export from After Effects\", \"export with transparency / an alpha channel\", \"fix a black background on export\", \"choose ProRes vs H.264\", \"which codec / what bitrate for 1080p / 4K\", \"stop H.264 disappearing from the Render Queue\"; OR when \"After Effects is slow / laggy / crashing / froze\", \"RAM preview won't play in real time\", \"AE is using all my memory / render takes forever\", \"how do I speed up After Effects\"; OR to \"organize my After Effects project\", \"relink missing footage\", \"fix broken links after moving files\", \"set a folder structure / naming conventions\", \"batch rename layers\", or \"write an ExtendScript / .jsx script\". Covers expressions & rigging, export recipes, performance triage, and project hygiene.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "blender-animation",
+      "path": "skills/12-blender-animation/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Animation in Blender 5.3 - slotted/layered actions and the channelbag API, Python keyframing, F-curves, game loops with pop/hitch checks, NLA clips, pose library, mocap/BVH/Mixamo retargeting with auto bone maps, baking control rigs to export skeletons, root motion, per-clip export. Use for any keyframe, action, NLA, mocap, or animation-export task.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "scenario-blender-previs-storyboard",
+      "path": "skills/13-blender-previs-storyboard/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Use when turning a script or story into previs, layout, storyboards or an animatic in Blender: beats to shot list, camera and lens per shot, staging, camera height, 180-degree rule, screen direction, shot sizes, when to cut, camera moves, timing stills in the Video Sequencer, markers bound to cameras, Story Tools, Grease Pencil or 2D/3D hybrid boards. Also when an animatic shows the wrong frame, blocking keys are not stepped, Rigify operators are missing, or viewport render fails headless.",
+      "license": "MIT",
+      "metadata_author": null
+    },
+    {
+      "name": "caption-styling",
+      "path": "skills/14-caption-styling/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Style, time and place captions and subtitles so they read on a phone with the sound off. Sets line length, reading speed, cue timing, size, contrast and platform safe zones, and checks SRT or VTT files against them. Use when the user wants captions or subtitles added, restyled, fixed or made accessible, says captions are too fast, too small or hidden under app buttons, or is preparing TikTok, Reels, Shorts or YouTube video, even if they only ask to \"put what I say on screen\".",
+      "license": "CC-BY-4.0 for this text, Apache-2.0 for scripts",
+      "metadata_author": null
+    },
+    {
+      "name": "audio-ducking",
+      "path": "skills/15-audio-ducking/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Mix voice over music so every word stays clear. Sets music bed levels, ducks the music under speech without pumping (from speech timings or with a sidechain compressor), and masters the mix to a platform loudness target. Use when the user wants background music under narration, a voiceover, a podcast or a vlog, says the music drowns out or fights their voice, asks how loud music should sit, or needs the final mix at YouTube, podcast or broadcast loudness, even if they never say \"ducking\".",
+      "license": "CC-BY-4.0 for this text, Apache-2.0 for scripts",
+      "metadata_author": null
+    },
+    {
+      "name": "adobe-batch-edit-photos",
+      "path": "skills/16-adobe-batch-photo-edit/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Apply consistent photo adjustments across a set of images so they look like they were edited together. Use this skill whenever the user says \"make my photos look cohesive\", \"give all these the same style\", \"apply a warm and golden feel to all of these\", \"make this cinematic\", \"match the look across my photos\", \"edit all my travel photos the same way\", \"batch edit these\", \"make these consistent\", \"fix my phone photos\", or uploads a folder of photos and wants a unified, polished result. Also triggers for requests like \"apply a preset to all of these\", \"make these look professional\", or \"they were shot in mixed lighting — can you fix them all\". Outputs direct final image URLs plus an in-chat preview grid and optional Firefly Board link. Access: 🔐 Signed-In required | Gen AI: ❌",
+      "license": "Apache-2.0",
+      "metadata_author": null
+    },
+    {
+      "name": "17-photoshop-expert",
+      "path": "skills/17-photoshop-expert/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "audio-mixing-mastering",
+      "path": "skills/18-audio-mixing-mastering/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Provider-independent audio mixing and mastering direction for AI agents finishing generated videos, ads, trailers, explainers, podcasts, recuts, avatar clips, music videos, documentaries, and social content. Use when planning, mixing, repairing, mastering, QCing, or delivering dialogue, music, ambience, and sound effects, including loudness/true-peak targets, intelligibility, accessibility, stems, stereo/immersive decisions, platform/client specs, and final audio QA.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "media-studio",
+      "path": "skills/19-media-studio/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "High-fidelity audio, video, still image, and animated visual (MP4, WebM, Animated WebP, GIF, APNG, PNG, JPEG, TIFF, WAV, FLAC, Opus, AAC) synthesis, timeline editing, damaged-container salvage, archival restoration, fidelity-bounded upscaling, and broadcast/streaming mastering. Enforces the 4-stage Probe -> Plan -> Process -> Verify pipeline, stream-copy container salvage, two-pass EBU R128 loudness normalization, spectral/temporal denoising, debanding, two-pass palette generation, and objective quality gates (media_qc.py: probe, check, salvage, compare, ab-sheet, master-audio, keyframes). Invoke with /media-studio or when generating, editing, salvaging, restoring, upscaling, transcoding, or mastering audio, video, still photos, or animated visual files (\"ses üret\", \"video üret\", \"ses düzenle\", \"video düzenle\", \"bozuk sesi/görüntüyü kurtar\", \"eski fotoğrafı onar\", \"ses kalitesini düzelt\", \"görüntü kalitesini artır\", \"gürültü temizle\", \"hareketli görsel\", \"mastering\"). Not for zero-spec single-file UX discovery interviews (use 'vibecoder'), real-time 60 Hz interactive game simulation loops (use 'game-engineering'), or static architectural diagrams (use 'visualizer').",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "filmcraft-expert",
+      "path": "skills/20-filmcraft-expert/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Premiere Pro-grade video editing in FilmCraft, the ArtCraft editor driven over MCP (mcp__filmcraft__* tools: command_list, command_run, command_batch, doc_inspect, sequence_inspect, render_frame, media_import). Use whenever working with FilmCraft or editing any video: rough and fine cuts, ripple/roll/slip/slide trims, 9:16 reels/TikTok/Shorts from 16:9, captions and titles, transitions, keyframes, speed and time remapping, Lumetri color, LUTs and scopes, chroma key, audio mixing, LUFS loudness and ducking, multicam, proxies, export for social, web or a ProRes/DNxHR master, and project archiving. Includes a verified Premiere-to-FilmCraft command map, QC checklists, and hand-offs to SoundCraft and EffectCraft.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "cli-hub-matrix-video-creation",
+      "path": "skills/21-cli-anything-video-creation/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Capability-based multi-tool matrix for video production. Agents pick providers (CLI-Anything harnesses, public CLIs, Python libs, native binaries, cloud APIs) per capability rather than marching through fixed stages, including storyboard planning, story/audio direction, source triage, internet video/music search/download, capture/generation, analysis, sound design, high-end caption design, NLE/render doctor investigation, review, and packaging.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "vibe-editing-cut",
+      "path": "skills/22-vibe-editing-cut/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Use this skill when recorded footage must become a finished cut by talking to an agent (\"vibe editing\"): talking-head takes, interviews, podcasts, tutorials or screen recordings where the agent picks takes, removes pauses, false starts and fillers, shortens or reorders speech, or cuts a long recording into clips. It inventories sources (variable frame rate, rotation, HDR), works from word timestamps, writes an edit decision list with source and output times for approval, renders frame-accurately with FFmpeg, moves captions and inserts onto the new timeline, and plans sound (fades at joins, ducking, loudness). Also for choosing the tool for an edit and deciding which media may be uploaded. Not for HyperFrames or Remotion code, motion graphics or explainers without footage (hyperframes, general-video, remotion-best-practices), captions or overlays on footage that stays unchanged (embedded-captions, talking-head-recut), or checking a finished render (vibe-editing-review).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "vibe-editing-review",
+      "path": "skills/23-vibe-editing-review/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Use this skill when a rendered video must be checked before it is published or handed over: does it match the brief (size, frame rate, duration), the approved edit and the script; are there black or frozen frames, dropped sound, long silences, clicks, loudness or true-peak problems; do the captions follow the final timeline, keep to line and reading-speed limits and spell names right; is private data visible. It scans the file read-only with FFmpeg, guides one full viewing with sound, and writes a report with output times, evidence and fixes, plus what it could not check. Also for diagnosing a broken render, writing the handoff for another agent, and turning an accepted video into a template for a series. Not for making the cut (vibe-editing-cut), or validating and rendering HyperFrames or Remotion projects (hyperframes-cli, remotion-render).",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "podcast-and-audiograms",
+      "path": "skills/24-podcast-and-audiograms/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "The audio-to-social pipeline skill -- turn a podcast episode into short, branded, captioned clips and audiograms that drive people back to the full episode. Use when someone wants to repurpose a podcast, make podcast clips, create audiograms, or promote an episode on social. Uses the WAVES framework. Reads brand-profile + the episode first. Select clips by listener-retention data + timestamped transcript, not just an AI virality score, plus a strategic CTA back to the episode. The agent plans the clip strategy, briefs the clip/audiogram creation, plans the cadence, and writes hooks/CTAs; a clip or audiogram tool produces the clips; the creator finalizes; WoopSocial publishes on a schedule and does NOT record/edit/transcribe the podcast, generate clips, or host it. Captions are non-optional (85% sound-off). Never fabricates virality or clips someone's copyrighted podcast. Distinct from captions-and-clipping, content-recycling, and youtube-long-form.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-use",
+      "path": "skills/25-video-editagent/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Edit any video by conversation. Transcribe, cut, color grade, generate overlay animations, burn subtitles — for talking heads, montages, tutorials, travel, interviews. No presets, no menus. Ask questions, confirm the plan, execute, iterate, persist. Production-correctness rules are hard; everything else is artistic freedom.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "video-editing",
+      "path": "skills/26-vexjoy-video-editing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Video editing pipeline: cut footage, assemble clips via FFmpeg and Remotion.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "ai-video-and-creative-production",
+      "path": "skills/ai-video-and-creative-production/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Plan AI-assisted video, image, voiceover, thumbnail, and editing workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "content-calendar-and-repurposing",
+      "path": "skills/content-calendar-and-repurposing/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Build editorial calendars and adapt source content into platform-native assets.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "creator-monetization-and-community",
+      "path": "skills/creator-monetization-and-community/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Plan ethical creator monetization, sponsorships, offers, and community workflows.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "hooks-scripts-and-captions",
+      "path": "skills/hooks-scripts-and-captions/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Write platform-native hooks, scripts, captions, titles, and calls to action.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "instagram-growth-and-reels",
+      "path": "skills/instagram-growth-and-reels/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Plan Instagram growth across Reels, carousels, Stories, profile conversion, and Insights.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-analytics-and-optimization",
+      "path": "skills/social-analytics-and-optimization/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Analyze social metrics, diagnose bottlenecks, and recommend measurable experiments.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-media-strategy",
+      "path": "skills/social-media-strategy/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Build cross-platform social media strategy, positioning, content pillars, cadence, and KPIs.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "social-profile-and-brand-voice",
+      "path": "skills/social-profile-and-brand-voice/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Improve creator positioning, social profiles, brand voice, and consistent messaging.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "tiktok-growth-and-scripts",
+      "path": "skills/tiktok-growth-and-scripts/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Plan TikTok growth and write original scripts using audience intent, search, retention, and comments.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "trend-and-competitor-research",
+      "path": "skills/trend-and-competitor-research/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Research trends, creators, competitors, and content gaps using verifiable public evidence.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-channel-growth",
+      "path": "skills/youtube-channel-growth/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Audit and grow YouTube channels through positioning, packaging, retention, and analytics.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-long-form",
+      "path": "skills/youtube-long-form/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Create long-form YouTube concepts, titles, thumbnail briefs, outlines, and scripts.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
+    },
+    {
+      "name": "youtube-shorts",
+      "path": "skills/youtube-shorts/SKILL.md",
+      "collection": "core-and-verified",
+      "description": "Write shoot-ready YouTube Shorts with hooks, visual beats, captions, and titles.",
+      "license": "Not stated in SKILL.md",
+      "metadata_author": null
     }
   ]
 }

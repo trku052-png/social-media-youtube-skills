@@ -1,113 +1,99 @@
+<!-- Social Media, YouTube & Creative Production Skills -->
 <div align="center">
-  <img src="assets/hero-banner.svg" alt="Social Media, YouTube and creative production skills — learn, create, grow" width="100%" />
+  <img src="assets/hero-banner.svg" alt="Creator Skills banner — Social Media, YouTube and creative production" width="100%" />
+  <br/>
+  <img src="assets/creator-logo-loop-small.gif" alt="Animated Creator Skills logo" width="120" />
   <h1>Social Media, YouTube & Creative Production Skills</h1>
-  <p><strong>A curated library of agent skills for content strategy, video production, audio, design and creator growth.</strong></p>
+  <p><strong>One organized library for creator strategy, video, audio, motion design, publishing and AI-assisted workflows.</strong></p>
   <p>
-    <a href="docs/SKILL_CATALOG.md">Explore skills</a> ·
-    <a href="docs/GETTING_STARTED.md">Get started</a> ·
-    <a href="docs/LICENSING.md">Licensing</a> ·
-    <a href="CONTRIBUTING.md">Contribute</a>
+    <a href="docs/SKILL_CATALOG.md">📚 Full Skill Catalog</a> ·
+    <a href="docs/USAGE_GUIDE.md">🧭 Usage Guide</a> ·
+    <a href="docs/CREATOR_LAUNCHPAD.md">🚀 Creator Launchpad</a> ·
+    <a href="docs/BRAND_GUIDE.md">🎨 Brand Guide</a>
   </p>
   <p>
-    <img src="https://img.shields.io/badge/Core%20Skills-13-2563EB?style=for-the-badge" alt="13 core skills" />
-    <img src="https://img.shields.io/badge/Verified%20Upstream-26-0891B2?style=for-the-badge" alt="26 verified upstream skills" />
-    <img src="https://img.shields.io/badge/Archived%20Snapshots-16-7C3AED?style=for-the-badge" alt="16 archived snapshots" />
-    <img src="https://img.shields.io/badge/Unique%20Skill%20Instructions-286-16A34A?style=for-the-badge" alt="286 unique skill instructions" />
+    <img src="https://img.shields.io/badge/Unique%20Skill%20Docs-299-0EA5E9?style=for-the-badge" alt="299 unique skill documents" />
+    <img src="https://img.shields.io/badge/Skill%20Identifiers-280-5865F2?style=for-the-badge" alt="280 skill identifiers" />
+    <img src="https://img.shields.io/badge/Collections-5-8B5CF6?style=for-the-badge" alt="5 collections" />
   </p>
 </div>
 
 ---
 
-## What is this repository?
+## 🎯 What is this library?
 
-This repository brings together reusable **Agent Skills** that help creators and AI agents plan, write, produce, edit, publish and improve digital content. It is designed as a structured reference library for YouTube creators, social media teams, editors, designers and agent builders.
+A curated collection of **299 distinct Agent Skill instruction files** assembled from the five ZIP archives supplied in this conversation. It helps creators and compatible AI agents plan, write, design, produce, edit, publish and improve digital content.
 
-The current repository contains 13 project-focused social media skills, 26 documented upstream video and creative skills, and 16 older upstream snapshots retained for reference. Some archived snapshots duplicate the verified set; they are kept separate so their original history remains visible.
+The library has been organized without silently rewriting original `SKILL.md` files. Exact byte-for-byte duplicate copies were removed; source variants with the same skill identifier but different instructions are kept in their original package directories. See the [duplicate-removal report](docs/DEDUPE_REPORT.md) and [machine-readable manifest](manifest.json).
 
-> **What a skill is — and is not:** A `SKILL.md` file provides instructions to a compatible agent. It is not automatically an installed application, executable tool, API connection or guarantee that a workflow will run. Check each package's prerequisites and supporting files before use.
+> **What a skill is:** a `SKILL.md` is an instruction package for a compatible agent. It does not automatically install software, grant API access, connect an account or guarantee that an external workflow can run. Read the prerequisites and supplied support files before use.
 
-## Expanded skill library — 247 additional skills
+## 🗂️ Explore the five collections
 
-Three additional collections have been inventoried and indexed:
+| Collection | Size | Focus |
+|---|---:|---|
+| [Social Media & YouTube — Starter](collections/social-media-youtube-starter/README.md) | **13** | Creator strategy, channel growth, Shorts, scripts, audience research and repurposing |
+| [Social Media & YouTube](collections/social-media-youtube/README.md) | **89** | Cross-platform marketing, content workflows, social automation, analytics and YouTube operations |
+| [Audio, SFX, Video & Media](collections/audio-video-production/README.md) | **94** | Voice, transcription, dubbing, sound effects, music, FFmpeg, video and media libraries |
+| [Motion, Design, Animation & Adobe](collections/motion-design-adobe/README.md) | **64** | After Effects, Blender, Adobe apps, Remotion, GSAP, Rive, Lottie and image tools |
+| [Core & Verified Upstream Skills](docs/SKILL_CATALOG.md) | **39** | 13 project skills and 26 researched video/creative skills |
 
-- **89** Social Media, YouTube & Content Marketing skills
-- **94** Audio, SFX, Video & Media Library skills
-- **64** Motion, Design, Animation & Adobe skills
+## 🎬 The creator workflow
 
-Together with the existing 39 unique skill documents, the library now represents **286 unique skill instructions**. Browse the [Imported Skills Index](docs/IMPORTED_SKILLS.md) for the complete categorized list and concise descriptions.
+<p align="center"><img src="assets/creator-workflow.png" alt="Five-stage production workflow: plan, write, produce, publish, measure and improve" width="100%" /></p>
 
-## Explore the skill library
+## 🧭 Quick start
 
-| Area | What you can do |
-|---|---|
-| **YouTube growth** | Channel positioning, long-form planning, Shorts, packaging, titles, thumbnails, SEO and retention |
-| **Social media strategy** | Content pillars, TikTok and Instagram workflows, audience research, brand voice and calendars |
-| **Writing & creative direction** | Hooks, scripts, captions, storyboards, B-roll planning and visual direction |
-| **Video production** | FFmpeg workflows, structured editing, talking-head cleanup, video analysis, rendering and quality control |
-| **Motion & design** | After Effects, Blender animation, previs, Photoshop workflows and batch image editing |
-| **Audio & podcasts** | Audio ducking, mixing, mastering, podcasts and audiograms |
-| **Publishing & analytics** | YouTube publishing, metadata, social metrics, optimization and creator monetization |
+1. **Search the catalog.** Use [the complete index](docs/SKILL_CATALOG.md) to find a skill by name and purpose.
+2. **Open the package.** Read its full `SKILL.md`, then check any `references/`, `scripts/`, `assets/`, `templates/` and `examples/` folders.
+3. **Check requirements.** Skills may require Python, Node.js, FFmpeg, Blender, Adobe apps, an API key, paid plan, local runtime or MCP server.
+4. **Install for your agent.** Follow the current installation method for the specific agent runtime; installation paths and formats vary.
+5. **Test safely.** Use copies or sample media before batch operations, connected accounts or production publishing.
 
-## The creator workflow
+Detailed instructions: [Usage Guide](docs/USAGE_GUIDE.md) · [Safety & Alerts](docs/SAFETY_AND_ALERTS.md).
 
-The skills can be combined into a practical end-to-end workflow: understand the audience, develop the idea, produce a polished asset, distribute it natively, then use performance evidence to improve the next iteration.
-
-<p align="center">
-  <img src="assets/creator-workflow.svg" alt="Five-stage creator workflow: plan and research, write and design, produce and edit, publish and distribute, measure and improve" width="100%" />
-</p>
-
-## Start here
-
-1. Open the [complete skill catalog](docs/SKILL_CATALOG.md) and choose a skill by task.
-2. Read its entire `SKILL.md`, including prerequisites, limitations and tool permissions.
-3. Inspect any supplied `references/`, `scripts/`, `assets/` or `evals/` folders.
-4. Install the skill using the method documented by your chosen agent runtime.
-5. Test on non-sensitive sample material before using production assets or connected accounts.
-
-See [Getting Started](docs/GETTING_STARTED.md) for compatibility and setup guidance.
-
-## Repository map
+## 🧩 Repository map
 
 ```text
 .
-├── assets/
-│   ├── hero-banner.svg
-│   └── creator-workflow.svg
-├── docs/
-│   ├── SKILL_CATALOG.md
-│   ├── GETTING_STARTED.md
-│   ├── LICENSING.md
-│   ├── SNAPSHOT_LIMITATIONS.md
-│   └── GITHUB_ABOUT.md
-├── skills/
-│   ├── 01-* ... 26-*          # 26 documented upstream skills
-│   ├── upstream/              # 16 historical snapshots
-│   └── [13 project skills]    # Social media and YouTube skills
-├── third_party/               # Preserved upstream license notices
-├── INDEX-26.md
-├── manifest.json
-├── manifest-verified-26.json
-├── THIRD_PARTY_NOTICES.md
+├── assets/                       # Logo, icon, banner, flag, GIF, thumbnail and diagrams
+├── skills/                       # 13 project skills + 26 verified upstream skills
+├── collections/
+│   ├── social-media-youtube-starter/  # 13 packages
+│   ├── social-media-youtube/          # 89 packages
+│   ├── audio-video-production/        # 94 packages
+│   └── motion-design-adobe/           # 64 packages
+├── docs/                         # Catalog, guides, playbook, brand and safety docs
+├── manifest.json                 # Complete skill inventory
+├── INDEX-26.md                   # Verified upstream source index
+├── THIRD_PARTY_NOTICES.md        # Source notices and provenance
 ├── CONTRIBUTING.md
 └── SECURITY.md
 ```
 
-## Quality, safety and responsible use
+## ⚠️ Production notes
 
-- **Human approval for external actions.** Posting, scheduling, sending, deleting or changing connected accounts must require explicit approval.
-- **Evidence over hype.** Do not invent analytics, research, testimonials or guaranteed growth claims.
-- **Respect rights and privacy.** Check licenses, music and footage rights, consent, platform terms and applicable privacy rules.
-- **Verify changing details.** Platform specifications, model capabilities, API behavior and pricing can change; check official sources before production use.
-- **Protect credentials.** Never commit API keys, tokens, passwords, cookies, private media or personal data.
+- Keep API keys, tokens, passwords, cookies and private media outside the repository.
+- Review permissions before using social automation, uploads, messaging or account-management tools.
+- Require explicit human approval before posting, scheduling, sending, deleting or changing an external account.
+- Preserve source media and use non-destructive edits where possible.
+- Verify music, sound effects, fonts, stock footage, photographs, likenesses and model terms before use.
+- Check final exports for duration, aspect ratio, resolution, frame rate, codec, bitrate, loudness, captions and platform requirements.
+- Do not invent analytics, source citations, testimonials, guarantees or growth claims.
 
-## Licensing & attribution
+## 🎁 The extra: Creator Launchpad
 
-This is a mixed-source repository. The root `LICENSE` applies only to the project-authored materials described in it; third-party skills and assets retain their own terms. Some source snapshots do not include a license or all of their referenced support files. See [Licensing & Provenance](docs/LICENSING.md), [Third-Party Notices](THIRD_PARTY_NOTICES.md) and [Snapshot Limitations](docs/SNAPSHOT_LIMITATIONS.md).
+The [Creator Launchpad](docs/CREATOR_LAUNCHPAD.md) includes a 45-minute idea-to-brief sprint, a five-stage production board, 15 reusable prompt starters and a pre-publish checklist to help put the library to work immediately. Try the [editable YouTube thumbnail template](assets/youtube-thumbnail-template.svg), or use the PNG version in the assets folder.
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome. Add focused skills with clear prerequisites, accurate license information, source attribution and examples or tests where possible. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+Contributions are welcome. Keep each skill focused, document requirements, preserve original source attribution and include tests or examples when practical. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## 📜 Licensing and attribution
+
+This is a mixed-source library. Different packages retain their own declarations and dependencies; do not assume a single license applies to every file. See [Licensing & Provenance](docs/LICENSING.md) and [Third-Party Notices](THIRD_PARTY_NOTICES.md).
 
 <div align="center">
-  <sub>Learn with clarity. Create with intention. Grow with evidence.</sub>
+  <img src="assets/creator-flag.svg" alt="Creator Skills — Learn, Create, Grow" width="70%" />
+  <p><sub>Learn with clarity. Create with intention. Grow with evidence.</sub></p>
 </div>

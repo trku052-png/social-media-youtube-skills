@@ -2,7 +2,7 @@
 
 ## Reporting a concern
 
-Do not publish API keys, access tokens, passwords, cookies, personal information or private media in issues or pull requests. Use GitHub's private vulnerability reporting feature if it is enabled for this repository. Otherwise, contact the repository maintainer through the private contact method listed on their GitHub profile.
+Do not publish API keys, access tokens, passwords, cookies, personal information or private media in issues or pull requests. If GitHub private vulnerability reporting is enabled for this repository, use it for sensitive reports. Otherwise, contact the repository maintainer through the private contact method listed on their GitHub profile.
 
 ## Scope
 
