@@ -12,6 +12,7 @@
     <img src="https://img.shields.io/badge/Core%20Skills-13-2563EB?style=for-the-badge" alt="13 core skills" />
     <img src="https://img.shields.io/badge/Verified%20Upstream-26-0891B2?style=for-the-badge" alt="26 verified upstream skills" />
     <img src="https://img.shields.io/badge/Archived%20Snapshots-16-7C3AED?style=for-the-badge" alt="16 archived snapshots" />
+    <img src="https://img.shields.io/badge/Unique%20Skill%20Instructions-286-16A34A?style=for-the-badge" alt="286 unique skill instructions" />
   </p>
 </div>
 
@@ -24,6 +25,16 @@ This repository brings together reusable **Agent Skills** that help creators and
 The current repository contains 13 project-focused social media skills, 26 documented upstream video and creative skills, and 16 older upstream snapshots retained for reference. Some archived snapshots duplicate the verified set; they are kept separate so their original history remains visible.
 
 > **What a skill is — and is not:** A `SKILL.md` file provides instructions to a compatible agent. It is not automatically an installed application, executable tool, API connection or guarantee that a workflow will run. Check each package's prerequisites and supporting files before use.
+
+## Expanded skill library — 247 additional skills
+
+Three additional collections have been inventoried and indexed:
+
+- **89** Social Media, YouTube & Content Marketing skills
+- **94** Audio, SFX, Video & Media Library skills
+- **64** Motion, Design, Animation & Adobe skills
+
+Together with the existing 39 unique skill documents, the library now represents **286 unique skill instructions**. Browse the [Imported Skills Index](docs/IMPORTED_SKILLS.md) for the complete categorized list and concise descriptions.
 
 ## Explore the skill library
 

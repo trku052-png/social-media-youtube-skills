@@ -31,3 +31,14 @@ The `skills/upstream/` folder contains older upstream snapshots. Several are exa
 ## Choosing between similarly named skills
 
 Compare the full file path, source repository and requirements. Similar skill names may represent different versions, providers or implementation approaches. Read the complete `SKILL.md` and its support files before installing or executing a skill.
+
+
+## Additional imported collections — 247 skills
+
+The uploaded nested ZIP packages add 247 distinct skill instructions across three collections. Browse the categorized indexes:
+
+- [Social Media, YouTube & Content Marketing (89)](IMPORTED_SOCIAL_YOUTUBE.md)
+- [Audio, SFX, Video & Media Libraries (94)](IMPORTED_AUDIO_VIDEO.md)
+- [Motion, Design, Animation & Adobe (64)](IMPORTED_MOTION_DESIGN.md)
+
+See [Imported Skills Overview](IMPORTED_SKILLS.md) for the repository-wide count and import status.
