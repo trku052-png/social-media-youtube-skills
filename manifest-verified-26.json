@@ -1,0 +1,242 @@
+{
+  "name": "social-media-youtube-creative-agent-skills",
+  "snapshot_date": "2026-11-14",
+  "verified_upstream_skill_count": 26,
+  "note": "SKILL.md snapshots only. Ancillary scripts, references, assets, plugins, models and accounts may remain in upstream repositories. ChatGPT compatibility is not implied.",
+  "skills": [
+    {
+      "name": "FFmpeg Skill",
+      "local_path": "skills/01-ffmpeg-skill/SKILL.md",
+      "upstream_repository": "https://github.com/kajisho5/ffmpeg-skill",
+      "upstream_skill_file": "https://github.com/kajisho5/ffmpeg-skill/blob/main/SKILL.md",
+      "upstream_skill_commit": "18aa2402c887c927e59169fc2946b9dc5b3e1545",
+      "commit_date_utc": "2026-11-14",
+      "license": "MIT"
+    },
+    {
+      "name": "Typed Video Editing",
+      "local_path": "skills/02-typed-video-editing/SKILL.md",
+      "upstream_repository": "https://github.com/kajisho5/video-editing-skill",
+      "upstream_skill_file": "https://github.com/kajisho5/video-editing-skill/blob/main/SKILL.md",
+      "upstream_skill_commit": "5134734adbb9f2dc6123548d523aea6bf6cb9189",
+      "commit_date_utc": "2026-11-13",
+      "license": "MIT"
+    },
+    {
+      "name": "Video Editing Workbench",
+      "local_path": "skills/03-video-editing-workbench/SKILL.md",
+      "upstream_repository": "https://github.com/gitethanwoo/video-editing",
+      "upstream_skill_file": "https://github.com/gitethanwoo/video-editing/blob/main/skills/video-editing/SKILL.md",
+      "upstream_skill_commit": "166eed9b1f391af5201a37057924593bf8f413d4",
+      "commit_date_utc": "2026-07-29",
+      "license": "MIT"
+    },
+    {
+      "name": "Video to Shorts",
+      "local_path": "skills/04-video-to-shorts/SKILL.md",
+      "upstream_repository": "https://github.com/social-media-skills/video-to-shorts-skill",
+      "upstream_skill_file": "https://github.com/social-media-skills/video-to-shorts-skill/blob/main/skills/video-to-shorts-skill/SKILL.md",
+      "upstream_skill_commit": "b5f3c4087791be00fc9740d3b507c82719e3d295",
+      "commit_date_utc": "2026-10-29",
+      "license": "MIT"
+    },
+    {
+      "name": "Talking-head Editing",
+      "local_path": "skills/05-talking-head-editing/SKILL.md",
+      "upstream_repository": "https://github.com/social-media-skills/video-editing-skill",
+      "upstream_skill_file": "https://github.com/social-media-skills/video-editing-skill/blob/main/skills/video-editing-skill/SKILL.md",
+      "upstream_skill_commit": "4ba4092ab946a991d84087e2aa1408dc2c3e1cb2",
+      "commit_date_utc": "2026-11-11",
+      "license": "MIT"
+    },
+    {
+      "name": "Gemini Omni Flash",
+      "local_path": "skills/06-gemini-video-generation/SKILL.md",
+      "upstream_repository": "https://github.com/google-gemini/gemini-skills",
+      "upstream_skill_file": "https://github.com/google-gemini/gemini-skills/blob/main/skills/gemini-omni-flash-api/SKILL.md",
+      "upstream_skill_commit": "0a70331410aef9ce49d915f926aa86398c607a9e",
+      "commit_date_utc": "2026-11-05",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "YouTube Publishing",
+      "local_path": "skills/07-youtube-publishing/SKILL.md",
+      "upstream_repository": "https://github.com/social-media-skills/youtube-skill",
+      "upstream_skill_file": "https://github.com/social-media-skills/youtube-skill/blob/main/skills/youtube-skill/SKILL.md",
+      "upstream_skill_commit": "14cf912ba9de1f873f9d34a125176da9439d3867",
+      "commit_date_utc": "2026-11-02",
+      "license": "MIT"
+    },
+    {
+      "name": "YouTube Long-form",
+      "local_path": "skills/08-youtube-long-form/SKILL.md",
+      "upstream_repository": "https://github.com/social-media-skills/skills",
+      "upstream_skill_file": "https://github.com/social-media-skills/skills/blob/main/skills/youtube-long-form/SKILL.md",
+      "upstream_skill_commit": "2e54555c38c59610a4cf1f81f452f7dfe2623233",
+      "commit_date_utc": "2026-07-16",
+      "license": "MIT"
+    },
+    {
+      "name": "Analyze Video Editing",
+      "local_path": "skills/09-analyze-video-editing/SKILL.md",
+      "upstream_repository": "https://github.com/gitethanwoo/video-editing",
+      "upstream_skill_file": "https://github.com/gitethanwoo/video-editing/blob/main/skills/analyze-video-editing/SKILL.md",
+      "upstream_skill_commit": "166eed9b1f391af5201a37057924593bf8f413d4",
+      "commit_date_utc": "2026-07-29",
+      "license": "MIT"
+    },
+    {
+      "name": "Find B-roll",
+      "local_path": "skills/10-find-broll/SKILL.md",
+      "upstream_repository": "https://github.com/gitethanwoo/video-editing",
+      "upstream_skill_file": "https://github.com/gitethanwoo/video-editing/blob/main/skills/find-broll/SKILL.md",
+      "upstream_skill_commit": "166eed9b1f391af5201a37057924593bf8f413d4",
+      "commit_date_utc": "2026-07-29",
+      "license": "MIT"
+    },
+    {
+      "name": "After Effects",
+      "local_path": "skills/11-after-effects/SKILL.md",
+      "upstream_repository": "https://github.com/iart-ai/motion-design-skills",
+      "upstream_skill_file": "https://github.com/iart-ai/motion-design-skills/blob/main/skills/after-effects/SKILL.md",
+      "upstream_skill_commit": "3110f145d92bfbb0d3da88940de6c50225b79bf7",
+      "commit_date_utc": "2026-06-22",
+      "license": "MIT"
+    },
+    {
+      "name": "Blender Animation",
+      "local_path": "skills/12-blender-animation/SKILL.md",
+      "upstream_repository": "https://github.com/EL4CTEO/blender-skills",
+      "upstream_skill_file": "https://github.com/EL4CTEO/blender-skills/blob/main/skills/blender-animation/SKILL.md",
+      "upstream_skill_commit": "53c308e9f686436960473f5f535fae2b7e738ddc",
+      "commit_date_utc": "2026-11-13",
+      "license": "MIT"
+    },
+    {
+      "name": "Blender Previs & Storyboard",
+      "local_path": "skills/13-blender-previs-storyboard/SKILL.md",
+      "upstream_repository": "https://github.com/scenario-labs/skills",
+      "upstream_skill_file": "https://github.com/scenario-labs/skills/blob/main/skills/dcc/blender/scenario-blender-previs-storyboard/SKILL.md",
+      "upstream_skill_commit": "b8544b9c86e0685844cc6effbb27f3885f744d3a",
+      "commit_date_utc": "2026-10-29",
+      "license": "MIT"
+    },
+    {
+      "name": "Caption Styling",
+      "local_path": "skills/14-caption-styling/SKILL.md",
+      "upstream_repository": "https://github.com/vidmoat/skills",
+      "upstream_skill_file": "https://github.com/vidmoat/skills/blob/main/skills/core/caption-styling/SKILL.md",
+      "upstream_skill_commit": "05544203cd4e8978654d65320c983c39b23bd3ba",
+      "commit_date_utc": "2026-10-02",
+      "license": "Apache-2.0 repo"
+    },
+    {
+      "name": "Audio Ducking",
+      "local_path": "skills/15-audio-ducking/SKILL.md",
+      "upstream_repository": "https://github.com/vidmoat/skills",
+      "upstream_skill_file": "https://github.com/vidmoat/skills/blob/main/skills/core/audio-ducking/SKILL.md",
+      "upstream_skill_commit": "b4178000dd63feea8b481653ad145418b07eb2c2",
+      "commit_date_utc": "2026-10-01",
+      "license": "Apache-2.0 repo"
+    },
+    {
+      "name": "Adobe Batch Photo Edit",
+      "local_path": "skills/16-adobe-batch-photo-edit/SKILL.md",
+      "upstream_repository": "https://github.com/adobe/skills",
+      "upstream_skill_file": "https://github.com/adobe/skills/blob/main/plugins/creative-cloud/adobe-for-creativity/skills/adobe-batch-edit-photos/SKILL.md",
+      "upstream_skill_commit": "59140a57066a760d9c00c1380082d5b7c901556a",
+      "commit_date_utc": "2026-10-23",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "Photoshop Expert",
+      "local_path": "skills/17-photoshop-expert/SKILL.md",
+      "upstream_repository": "https://github.com/theneoai/awesome-skills",
+      "upstream_skill_file": "https://github.com/theneoai/awesome-skills/blob/main/skills/tool/design/photoshop-expert/SKILL.md",
+      "upstream_skill_commit": "493698741eee39532b1dd9968a5aa4d63f935c77",
+      "commit_date_utc": "2026-04-30",
+      "license": "MIT + attribution"
+    },
+    {
+      "name": "Audio Mixing & Mastering",
+      "local_path": "skills/18-audio-mixing-mastering/SKILL.md",
+      "upstream_repository": "https://github.com/calesthio/generative-media-skills",
+      "upstream_skill_file": "https://github.com/calesthio/generative-media-skills/blob/main/skills/production/audio-craft/audio-mixing-mastering/SKILL.md",
+      "upstream_skill_commit": "079f952442db3f86d5016c83175020c5ed07bedb",
+      "commit_date_utc": "2026-07-12",
+      "license": "MIT"
+    },
+    {
+      "name": "Media Studio",
+      "local_path": "skills/19-media-studio/SKILL.md",
+      "upstream_repository": "https://github.com/hadbilen/antigravity-harness",
+      "upstream_skill_file": "https://github.com/hadbilen/antigravity-harness/blob/main/skills/media-studio/SKILL.md",
+      "upstream_skill_commit": "153623d1e4d776c40b7a708def171fdc19bd9567",
+      "commit_date_utc": "2026-10-29",
+      "license": "MIT"
+    },
+    {
+      "name": "FilmCraft Expert",
+      "local_path": "skills/20-filmcraft-expert/SKILL.md",
+      "upstream_repository": "https://github.com/fralapo/awesome-agent-skills",
+      "upstream_skill_file": "https://github.com/fralapo/awesome-agent-skills/blob/main/skills/filmcraft-expert/SKILL.md",
+      "upstream_skill_commit": "b169016ec6aae764931f919e9ae38a3819266751",
+      "commit_date_utc": "2026-11-12",
+      "license": "MIT"
+    },
+    {
+      "name": "CLI-Anything Video Creation",
+      "local_path": "skills/21-cli-anything-video-creation/SKILL.md",
+      "upstream_repository": "https://github.com/HKUDS/CLI-Anything",
+      "upstream_skill_file": "https://github.com/HKUDS/CLI-Anything/blob/main/cli-hub-matrix/video-creation/SKILL.md",
+      "upstream_skill_commit": "5b9ec80def29cf0f513ec69894e6c9443c1ca9fa",
+      "commit_date_utc": "2026-06-14",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "Vibe Editing Cut",
+      "local_path": "skills/22-vibe-editing-cut/SKILL.md",
+      "upstream_repository": "https://github.com/alexey1312/Vibe-Editing-Agent-Skill",
+      "upstream_skill_file": "https://github.com/alexey1312/Vibe-Editing-Agent-Skill/blob/main/skills/vibe-editing-cut/SKILL.md",
+      "upstream_skill_commit": "ef3de0f371246647c8f74ca3d8241d604c664036",
+      "commit_date_utc": "2026-10-15",
+      "license": "MIT"
+    },
+    {
+      "name": "Vibe Editing Review",
+      "local_path": "skills/23-vibe-editing-review/SKILL.md",
+      "upstream_repository": "https://github.com/alexey1312/Vibe-Editing-Agent-Skill",
+      "upstream_skill_file": "https://github.com/alexey1312/Vibe-Editing-Agent-Skill/blob/main/skills/vibe-editing-review/SKILL.md",
+      "upstream_skill_commit": "ef3de0f371246647c8f74ca3d8241d604c664036",
+      "commit_date_utc": "2026-10-15",
+      "license": "MIT"
+    },
+    {
+      "name": "Podcast & Audiograms",
+      "local_path": "skills/24-podcast-and-audiograms/SKILL.md",
+      "upstream_repository": "https://github.com/social-media-skills/skills",
+      "upstream_skill_file": "https://github.com/social-media-skills/skills/blob/main/skills/podcast-and-audiograms/SKILL.md",
+      "upstream_skill_commit": "5222f277a982ef77f5eac86d114c26f6f6223262",
+      "commit_date_utc": "2026-07-18",
+      "license": "MIT"
+    },
+    {
+      "name": "Video EditAgent",
+      "local_path": "skills/25-video-editagent/SKILL.md",
+      "upstream_repository": "https://github.com/zeonagames/video-editagent",
+      "upstream_skill_file": "https://github.com/zeonagames/video-editagent/blob/main/SKILL.md",
+      "upstream_skill_commit": "631064f9bb4493c24ba4e9795544241e23d17b11",
+      "commit_date_utc": "2026-04-23",
+      "license": "No LICENSE found"
+    },
+    {
+      "name": "VexJoy Video Editing",
+      "local_path": "skills/26-vexjoy-video-editing/SKILL.md",
+      "upstream_repository": "https://github.com/notque/vexjoy-agent",
+      "upstream_skill_file": "https://github.com/notque/vexjoy-agent/blob/main/skills/content/video-editing/SKILL.md",
+      "upstream_skill_commit": "fec0a55827aa4df32139f0ea12c5aa68b1e6d955",
+      "commit_date_utc": "2026-11-07",
+      "license": "MIT"
+    }
+  ]
+}
