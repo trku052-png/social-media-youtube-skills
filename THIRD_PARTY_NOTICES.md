@@ -1,26 +1,32 @@
-# Third-party notices
+# Third-Party Notices
 
-هذا المستودع يحتوي على:
-- 13 مهارة محتوى أصلية للمشروع.
-- 26 لقطة SKILL.md من مستودعات خارجية في skills/01-* إلى skills/26-*.
-- 16 لقطة أرشيفية أقدم في skills/upstream؛ تتكرر بعض محتوياتها مع مجموعة 26.
+This repository contains project-authored material and imported skill packages. Imported material retains its own license and attribution requirements; no single root license automatically covers every file.
 
-الفهرس والتقرير الأحدث:
-- [INDEX-26.md](INDEX-26.md)
-- [التقرير العربي](research/2026-11-14-verified-report-ar.md)
-- [Manifest JSON](manifest-verified-26.json)
+## Curated upstream video and creative set
 
-## تراخيص الملفات الخارجية
-تم حفظ تراخيص upstream التي أمكن التحقق منها في المجلدين licenses/upstream/ وthird_party/. من المصادر التي عُثر على LICENSE في جذرها:
-- MIT: kajisho5/ffmpeg-skill, kajisho5/video-editing-skill, gitethanwoo/video-editing, social-media-skills/video-to-shorts-skill, social-media-skills/video-editing-skill, social-media-skills/youtube-skill, social-media-skills/skills, iart-ai/motion-design-skills, EL4CTEO/blender-skills, scenario-labs/skills, calesthio/generative-media-skills, hadbilen/antigravity-harness, fralapo/awesome-agent-skills, alexey1312/Vibe-Editing-Agent-Skill, notque/vexjoy-agent.
-- Apache-2.0: google-gemini/gemini-skills, adobe/skills, HKUDS/CLI-Anything.
-- Photoshop Expert: رخصة MIT مضافة إليها شروط attribution؛ احتفظ باسم المؤلف ورابط الترخيص وبيان التعديل.
-- Vidmoat: نصا مهارتي caption-styling وaudio-ducking يعلنان CC-BY-4.0 في frontmatter؛ سكربتات/كود المستودع Apache-2.0. لا تخلط بين ترخيص النص وترخيص الكود.
-- zeonagames/video-editagent: لم نعثر على LICENSE في جذر المستودع أثناء الفحص؛ الحالة Unknown/No license، ولا يُفترض أنه مفتوح المصدر.
+The 26 documented upstream skills are listed in [INDEX-26.md](INDEX-26.md). Their upstream repositories, file-level commit references and license notes are recorded in [manifest-verified-26.json](manifest-verified-26.json).
 
-قد توجد تراخيص منفصلة للأصول والنماذج والخطوط واللقطات والملفات الفرعية. لا يعني ترخيص المستودع أن جميع الوسائط التابعة له حرة أو مسموح باستخدامها تجارياً.
+Important findings from the source review:
 
-## نطاق النسخ
-الذي تم نسخه هو ملفات SKILL.md ونصوص التراخيص المتاحة؛ لم ننسخ scripts أو references أو models أو fonts أو LUTs أو plugins أو stock media. بعض المهارات لن تعمل بكامل قدراتها قبل استنساخ مستودع المصدر واستيفاء متطلباته.
+- The 26-skill snapshot records MIT and Apache-2.0 source projects, plus skill-text or additional attribution requirements for specific files.
+- `caption-styling` and `audio-ducking` declare CC-BY-4.0 for skill text in their frontmatter; scripts may have a separate license.
+- `video-editagent` had no root LICENSE in the inspected source snapshot. Treat redistribution status as unverified.
+- Separate fonts, footage, models, plugins, music, images and embedded assets may have their own terms.
 
-تخزين SKILL.md في GitHub لا يثبت تثبيتها أو تشغيلها داخل ChatGPT. أي CLI/Desktop/API/MCP أو حساب مدفوع يتطلب إعداده وصلاحياته خارج هذا المستودع.
+## Project-authored skills
+
+The repository includes 13 project-focused social media and YouTube skills under `skills/`. These are covered by the root LICENSE as scoped in that file.
+
+## Historical upstream snapshots
+
+The `skills/upstream/` directory preserves 16 earlier upstream skill-file snapshots. Some duplicate skills in the 26-skill verified set. They remain for provenance and historical reference; they should not be counted as 16 additional unique skill capabilities.
+
+## Imported archives and additional packages
+
+The working delivery archive prepared alongside this repository contains three additional user-supplied skill collections: 89 social-media/YouTube packages, 94 audio/video packages and 64 motion/design packages, plus a separate 13-skill starter snapshot. **Those extra collections are not included in this GitHub branch update.** They are preserved in the separately supplied ZIP package so their nested support files and original package structures are not misrepresented as already committed here.
+
+Before adding any imported package to this public repository, verify its original source, license, author attribution and rights to redistribute. A missing license is not permission to reuse.
+
+## Attribution and reuse
+
+Do not remove upstream copyright notices. Where an imported package does not include a clear source or license, verify the terms with its original author or repository owner before redistribution or commercial use. The root LICENSE is limited to project-authored material and does not override any third-party license.
