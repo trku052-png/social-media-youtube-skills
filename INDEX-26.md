@@ -16,8 +16,8 @@
 | 11 | After Effects | Expressions وMOGRT وrigging وLottie | MIT | 2026-06-22 | [SKILL.md](skills/11-after-effects/SKILL.md) |
 | 12 | Blender Animation | keyframes وNLA وmocap وretarget | MIT | 2026-11-13 | [SKILL.md](skills/12-blender-animation/SKILL.md) |
 | 13 | Blender Previs & Storyboard | shot list والكاميرا والعدسة وanimatic | MIT | 2026-10-29 | [SKILL.md](skills/13-blender-previs-storyboard/SKILL.md) |
-| 14 | Caption Styling | captions وsafe zones وSRT/VTT | Apache-2.0 repo | 2026-10-02 | [SKILL.md](skills/14-caption-styling/SKILL.md) |
-| 15 | Audio Ducking | موازنة الموسيقى مع الحوار | Apache-2.0 repo | 2026-10-01 | [SKILL.md](skills/15-audio-ducking/SKILL.md) |
+| 14 | Caption Styling | captions وsafe zones وSRT/VTT | CC-BY-4.0 text; Apache-2.0 scripts | 2026-10-02 | [SKILL.md](skills/14-caption-styling/SKILL.md) |
+| 15 | Audio Ducking | موازنة الموسيقى مع الحوار | CC-BY-4.0 text; Apache-2.0 scripts | 2026-10-01 | [SKILL.md](skills/15-audio-ducking/SKILL.md) |
 | 16 | Adobe Batch Photo Edit | batch photo edits عبر Creative Cloud | Apache-2.0 | 2026-10-23 | [SKILL.md](skills/16-adobe-batch-photo-edit/SKILL.md) |
 | 17 | Photoshop Expert | retouching وlayers وmasking وcompositing | MIT مع attribution إضافي | 2026-04-30 | [SKILL.md](skills/17-photoshop-expert/SKILL.md) |
 | 18 | Audio Mixing & Mastering | mix/master/loudness/stems/QC | MIT | 2026-07-12 | [SKILL.md](skills/18-audio-mixing-mastering/SKILL.md) |
