@@ -93,7 +93,7 @@
 ### 15) Audio Ducking
 - **المجال والتنفيذ:** مستويات music bed وducking تحت الحوار من timestamps أو sidechain مع تقليل pumping وتحديد loudness.
 - **المصادر:** [SKILL.md](https://github.com/vidmoat/skills/blob/main/skills/core/audio-ducking/SKILL.md) · [المستودع](https://github.com/vidmoat/skills) · [commit](https://github.com/vidmoat/skills/commit/b4178000dd63feea8b481653ad145418b07eb2c2) — 1 Oct 2026.
-- **الترخيص والمتطلبات:** Apache-2.0 للمستودع؛ Python أو FFmpeg/DAW حسب التنفيذ.
+- **الترخيص والمتطلبات:** CC-BY-4.0 لنص المهارة وفق frontmatter؛ Apache-2.0 للسكربتات. Python أو FFmpeg/DAW حسب التنفيذ.
 - **ChatGPT/التقييم:** مفيد للتخطيط؛ يجب الاستماع النهائي، ولا يكفي رقم LUFS وحده.
 
 ### 16) Adobe Batch Photo Edit
