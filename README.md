@@ -1,29 +1,21 @@
-# Social Media & YouTube Agent Skills
+# Social Media, YouTube & Creative Production Agent Skills
 
-A portable collection of 13 focused skills for content creators and social teams.
+مستودع يجمع تعليمات Agent Skills لصناعة المحتوى، الفيديو، الصوت، التصميم، الأنيميشن والنشر.
 
-## Included skills
-- `social-media-strategy`
-- `youtube-channel-growth`
-- `youtube-long-form`
-- `youtube-shorts`
-- `tiktok-growth-and-scripts`
-- `instagram-growth-and-reels`
-- `content-calendar-and-repurposing`
-- `hooks-scripts-and-captions`
-- `trend-and-competitor-research`
-- `social-analytics-and-optimization`
-- `ai-video-and-creative-production`
-- `social-profile-and-brand-voice`
-- `creator-monetization-and-community`
+## محتويات المجموعة
+- **13 مهارة أصلية للمشروع** لاستراتيجية السوشيال، نمو YouTube، hooks، trends، content calendar، العلامة التجارية وتحقيق الدخل.
+- **26 نسخة SKILL.md موثقة من مستودعات خارجية** تحت مجلدات skills/01 إلى skills/26. فُتحت الملفات الأصلية وتم تسجيل مصدرها وترخيصها وآخر commit خاص بالملف.
+- **16 لقطة upstream قديمة** داخل skills/upstream؛ بعضها يكرر مهارات من مجموعة الـ26، وهي محفوظة كأرشيف سابق ولا تُحتسب مهارات فريدة إضافية.
 
-## Usage and compatibility
-Each skill is an instruction file at `skills/<name>/SKILL.md` with YAML frontmatter. These files are portable source material; uploading them to GitHub does not install them in ChatGPT. Import or adapt them using the Skills/custom-instructions workflow available in your environment. Some workflows require web access, connected apps, or external API credentials.
+## روابط سريعة
+- [فهرس المهارات الـ26 الموثقة](INDEX-26.md)
+- [تقرير البحث العربي الكامل](research/2026-11-14-verified-report-ar.md)
+- [بيانات منظمة للـ26 مهارة](manifest-verified-26.json)
+- [تراخيص وإشعارات الطرف الثالث](THIRD_PARTY_NOTICES.md)
+- [ملفات المهارات](skills/)
 
-## Responsible use
-Never invent analytics, trends, testimonials, credentials, or outcomes. Respect platform rules, copyright, privacy, consent, and sponsorship disclosure requirements. Human-review generated media and factual claims.
+## التشغيل والتوافق
+ملف SKILL.md هو تعليمات للوكيل وليس برنامجاً بحد ذاته. بعض المهارات تحتاج scripts وreferences غير منسوخة هنا، أو FFmpeg وPython وBlender وAfter Effects وNode أو API keys أو حسابات مدفوعة أو MCP servers. اقرأ بطاقة المهارة وتحقق من متطلباتها قبل الاستخدام. وجودها في GitHub لا يثبت تثبيتها أو عملها داخل ChatGPT.
 
-
-## Verified upstream Agent Skills research (2026-11-14)
-
-This repository now includes 16 verified upstream `SKILL.md` snapshots under [skills/upstream](skills/upstream/INDEX.md), upstream license texts under [licenses/upstream](licenses/upstream/), and a detailed [Arabic research report](research/2026-11-14-agent-skills-report-ar.md). The copies are instruction-file snapshots only; supporting scripts, references, models and assets remain in their source repositories. See [third-party notices](THIRD_PARTY_NOTICES.md). The snapshots are not installed into ChatGPT by being stored here.
+## الحقوق والسلامة
+تُحترم تراخيص المصدر وحقوق الأصول المستقلة وشروط المنصات والخصوصية والموافقات. لا تستخدم مفاتيح API داخل المستودع، ولا تنسخ لقطات/موسيقى أو أعمالاً محمية دون إذن.
