@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+<title id="title">Social Media, YouTube and Creative Production Skills</title>
+<desc id="desc">A modern creator workspace with a video editing timeline, camera, microphone, social media tiles and analytics graphics.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101f"/><stop offset=".55" stop-color="#111b3b"/><stop offset="1" stop-color="#26114c"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#35d4ff"/><stop offset="1" stop-color="#8b7cff"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff416c"/><stop offset="1" stop-color="#ff8b5d"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="24"/></filter>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/><feOffset dy="9"/><feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="560" rx="30" fill="url(#bg)"/>
+<ellipse cx="1290" cy="110" rx="250" ry="170" fill="#3764ff" opacity=".18" filter="url(#soft)"/>
+<ellipse cx="1130" cy="510" rx="350" ry="130" fill="#b12cff" opacity=".14" filter="url(#soft)"/>
+<g opacity=".14" stroke="#80bfff" fill="none">
+ <path d="M780 30V530M880 30V530M980 30V530M1080 30V530M1180 30V530M1280 30V530M1380 30V530M1480 30V530"/>
+ <path d="M740 100H1560M740 200H1560M740 300H1560M740 400H1560M740 500H1560"/>
+</g>
+<g transform="translate(88 116)">
+ <text x="0" y="0" fill="#78ddff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">THE CREATOR TOOLKIT</text>
+ <text x="0" y="86" fill="#f8fbff" font-family="Arial,sans-serif" font-size="58" font-weight="800">SOCIAL MEDIA</text>
+ <text x="0" y="158" fill="url(#blue)" font-family="Arial,sans-serif" font-size="72" font-weight="900">YOUTUBE</text>
+ <text x="0" y="218" fill="#f8fbff" font-family="Arial,sans-serif" font-size="39" font-weight="700">CREATIVE PRODUCTION</text>
+ <rect x="0" y="252" width="490" height="5" rx="3" fill="url(#blue)"/>
+ <text x="0" y="302" fill="#d5e3f8" font-family="Arial,sans-serif" font-size="24">Agent skills for creators and AI workflows</text>
+ <text x="0" y="346" fill="#91a9ca" font-family="Arial,sans-serif" font-size="19">Strategy  •  Video  •  Motion  •  Audio  •  Growth</text>
+</g>
+<!-- editor monitor -->
+<g filter="url(#shadow)" transform="translate(690 122)">
+ <rect x="0" y="0" width="720" height="300" rx="20" fill="#101b31" stroke="#46648b" stroke-width="3"/>
+ <rect x="18" y="18" width="684" height="183" rx="10" fill="#071426"/>
+ <path d="M42 170 L120 118 L202 146 L298 57 L378 94 L465 44 L554 88 L680 28V190H42Z" fill="#173c65"/>
+ <path d="M42 170 L120 118 L202 146 L298 57 L378 94 L465 44 L554 88 L680 28" fill="none" stroke="#5bd7ff" stroke-width="4"/>
+ <circle cx="540" cy="90" r="31" fill="#6c8eff" opacity=".22"/>
+ <path d="M18 218H702" stroke="#29425e" stroke-width="2"/>
+ <g>
+  <rect x="26" y="231" width="200" height="17" rx="5" fill="#3c7be4"/>
+  <rect x="235" y="231" width="172" height="17" rx="5" fill="#9c6bff"/>
+  <rect x="420" y="231" width="250" height="17" rx="5" fill="#27b5a7"/>
+  <rect x="26" y="256" width="130" height="17" rx="5" fill="#d65c91"/>
+  <rect x="166" y="256" width="220" height="17" rx="5" fill="#3f9ab9"/>
+  <rect x="396" y="256" width="274" height="17" rx="5" fill="#8267dc"/>
+ </g>
+ <rect x="328" y="300" width="64" height="54" fill="#2a3f5b"/>
+ <rect x="250" y="352" width="220" height="18" rx="8" fill="#425e82"/>
+</g>
+<!-- floating camera -->
+<g filter="url(#shadow)" transform="translate(1170 44)">
+ <rect x="0" y="30" width="165" height="100" rx="18" fill="#182b48" stroke="#7e96bc" stroke-width="3"/>
+ <path d="M165 55L220 28V132L165 105Z" fill="#273e60" stroke="#7e96bc" stroke-width="3"/>
+ <circle cx="78" cy="80" r="38" fill="#07101f" stroke="#52cfff" stroke-width="6"/>
+ <circle cx="78" cy="80" r="18" fill="#152e55" stroke="#9c8cff" stroke-width="4"/>
+ <rect x="34" y="10" width="58" height="20" rx="6" fill="#7289af"/>
+</g>
+<!-- audio microphone -->
+<g transform="translate(1430 235)" filter="url(#shadow)">
+ <rect x="30" y="0" width="44" height="128" rx="22" fill="#162e4a" stroke="#76d8ff" stroke-width="4"/>
+ <path d="M10 64V78C10 131 94 131 94 78V64" fill="none" stroke="#98a9ff" stroke-width="7"/>
+ <path d="M52 132V166M26 166H78" stroke="#98a9ff" stroke-width="7" stroke-linecap="round"/>
+ <path d="M42 20H62M42 35H62M42 50H62" stroke="#4ad6ff" stroke-width="4" stroke-linecap="round"/>
+</g>
+<!-- analytics -->
+<g transform="translate(1120 452)">
+ <rect x="0" y="0" width="420" height="78" rx="14" fill="#0b1830" stroke="#4c5b94" stroke-width="2"/>
+ <path d="M22 58V44H56V58M75 58V28H109V58M128 58V36H162V58M181 58V15H215V58M234 58V7H268V58" fill="#4b81e8"/>
+ <path d="M290 55L323 39L349 45L393 11" stroke="#ff6d9f" stroke-width="4" fill="none" stroke-linecap="round"/>
+ <path d="M381 11H393V24" fill="none" stroke="#ff6d9f" stroke-width="4"/>
+</g>
+<g transform="translate(755 44)">
+ <rect x="0" y="0" width="60" height="60" rx="15" fill="#102848" stroke="#2aaee8" stroke-width="2"/>
+ <path d="M24 15L45 30L24 45Z" fill="#48d4ff"/>
+ <rect x="82" y="0" width="60" height="60" rx="15" fill="#17274b" stroke="#8e76f5" stroke-width="2"/>
+ <path d="M95 33Q103 9 111 33T127 33" fill="none" stroke="#c2a1ff" stroke-width="4"/>
+</g>
+<rect x="34" y="34" width="1532" height="492" rx="24" fill="none" stroke="#8dbbff" stroke-opacity=".18" stroke-width="2"/>
+</svg>
